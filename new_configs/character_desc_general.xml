@@ -198,6 +198,7 @@
         <visual>actors\stalker_hero\stalker_hero_1</visual>
         <supplies>
         [spawn_loadout] \n
+        wpn_ak74u = 1 \n
         wpn_mp5sd = 1 \n						   
         wpn_val = 1 \n						 
         [spawn_loadout2] \n
@@ -264,7 +265,8 @@
         [spawn_loadout] \n
         wpn_svt40 = 1 \n
         wpn_mn91 = 1 \n
-        wpn_ak74 = 1 \n
+        wpn_ak74m = 1 \n
+        wpn_aks74n
         wpn_ak74u = 1 \n
         [spawn_loadout2] \n
         wpn_pm = 1 \n
@@ -328,7 +330,7 @@
         wpn_akm = 1 \n
         wpn_ak74u = 1 \n
         wpn_ak47 = 1 \n
-        wpn_toz34 = 1 \n
+        wpn_toz34_so = 1 \n
         [spawn_loadout2] \n
         wpn_mp440 = 1 \n
         wpn_gsh18 = 1 \n
@@ -357,7 +359,7 @@
     <visual>actors\stalker_neutral\stalker_neutral_3</visual>
     <supplies>
         [spawn_loadout] \n
-        wpn_aks74_pso = 1 \n
+        wpn_ak74m_pso = 1 \n
         wpn_aks74n_kobra = 1 \n
         wpn_aks74n = 1 \n
         wpn_mn91 = 1 \n
@@ -494,7 +496,7 @@
     <supplies>
         [spawn_loadout] \n
         wpn_ak74u = 1 \n
-        wpn_ak74 = 1 \n
+        wpn_aks74 = 1 \n
         wpn_ak74m = 1 \n
         [spawn_loadout2] \n
         wpn_pmm = 1 \n
@@ -558,7 +560,7 @@
     <visual>actors\stalker_dolg\stalker_dolg_2_mas2</visual>
     <supplies>
         [spawn_loadout] \n
-        wpn_ak74 = 1 \n
+        wpn_ak74m = 1 \n
         wpn_akms = 1 \n
         wpn_akm = 1 \n
         wpn_avt40 = 1 \n
@@ -689,8 +691,8 @@
     <supplies>
         [spawn_loadout] \n
         wpn_ak74u = 1 \n
-        wpn_ak74 = 1 \n
-        wpn_ak47 = 1 \n
+        wpn_ak74m = 1 \n
+        wpn_ak103 = 1 \n
         wpn_akm = 1 \n
         [spawn_loadout2] \n
         wpn_tt33 = 1 \n
@@ -720,7 +722,7 @@
     <visual>actors\stalker_dolg\stalker_dolg2a_mas2</visual>
     <supplies>
         [spawn_loadout] \n
-        wpn_ak74 = 1 \n
+        wpn_ak74m = 1 \n
         wpn_ak47 = 1 \n
         wpn_ak74u = 1 \n
         [spawn_loadout2] \n
@@ -956,6 +958,7 @@
     <supplies>
         [spawn_loadout] \n
         wpn_mn91 = 1 \n
+        wpn_ak104 = 1 \n
         wpn_ak102 = 1 \n
         wpn_ak103 = 1 \n
         [spawn_loadout2] \n
@@ -4832,9 +4835,8 @@
     <supplies>
         [spawn_loadout] \n
         wpn_bm16 = 1 \n
-        wpn_bm16_full = 1 \n
-        wpn_toz34 = 1 \n
         wpn_toz34_so = 1 \n
+        wpn_ak74u =  1 \n
         [spawn_loadout2] \n
         wpn_pmm = 1 \n
         wpn_pb = 1 \n
@@ -4862,7 +4864,7 @@
     <visual>actors\stalker_bandit\stalker_bandit1a</visual>
     <supplies>
         [spawn_loadout] \n
-        wpn_toz34 = 1 \n
+        wpn_toz34_so = 1 \n
         wpn_bm16_full = 1 \n
         wpn_ak74u = 1 \n
         wpn_aks74 = 1 \n
@@ -4921,9 +4923,9 @@
     <visual>actors\stalker_bandit\stalker_bandit1c</visual>
     <supplies>
         [spawn_loadout] \n
-        wpn_toz34 = 1 \n
+        wpn_toz34_so = 1 \n
         wpn_ak74u = 1 \n
-        wpn_bm16_full = 1 \n
+        wpn_bm16 = 1 \n
         [spawn_loadout2] \n
         wpn_pmm = 1 \n
         wpn_pb = 1 \n   
@@ -4980,8 +4982,8 @@
     <visual>actors\stalker_bandit\stalker_bandit1a_mask</visual>
     <supplies>
         [spawn_loadout] \n
-        wpn_toz34 = 1 \n
-        wpn_bm16_full = 1 \n
+        wpn_toz34_so = 1 \n
+        wpn_bm16 = 1 \n
         wpn_akm = 1 \n
         wpn_ak74m = 1 \n
         wpn_vz65 = 1 \n
@@ -5166,7 +5168,7 @@
         wpn_toz34_sk1 = 1 \n
         wpn_bm16_full = 1 \n
         wpn_ak74u = 1 \n
-        wpn_ak74 = 1 \n
+        wpn_aks74 = 1 \n
         wpn_mn91 = 1 \n
         [spawn_loadout2] \n
         wpn_pmm = 1 \n
@@ -5708,10 +5710,11 @@
     <visual>actors\stalker_bandit\stalker_bandit_4</visual>
     <supplies>
         [spawn_loadout] \n
-        wpn_ak74 = 1 \n
+        wpn_aks74n = 1 \n
         wpn_ak74u = 1 \n
-        wpn_ak74_kobra = 1 \n
-        wpn_ak74_1p29 = 1 1\n
+        wpn_ak74u_ekp = 1 \n
+        wpn_aks74n_kobra = 1 \n
+        wpn_aks74n_1p29 = 1 1\n
         wpn_ak47 = 1 \n
         [spawn_loadout2] \n
         wpn_pm = 1 \n
@@ -5741,8 +5744,9 @@
     <visual>actors\stalker_bandit\stalker_bandit_2</visual>
     <supplies>
         [spawn_loadout] \n
-        wpn_ak74_kobra = 1 \n
-        wpn_ak74 = 1 \n
+        wpn_aks74n_kobra = 1 \n
+        wpn_aks74n = 1 \n
+        wpn_ak74m = 1 \n
         wpn_akms = 1 \n
         wpn_toz34 = 1 \n
         wpn_vz65 = 1 \n
@@ -5775,9 +5779,9 @@
         [spawn_loadout] \n
         wpn_ak74m_ekp = 1 \n
         wpn_ak74m = 1 \n
-        wpn_ak74 = 1 \n
+        wpn_aks74 = 1 \n
         wpn_ak74u = 1 \n
-        wpn_ak47 = 1 \n
+        wpn_ak74u_ekp = 1 \n
         wpn_vz65 = 1 \n
         [spawn_loadout2] \n
         wpn_pm = 1 \n
@@ -5875,6 +5879,7 @@
     <supplies>
         [spawn_loadout] \n
         wpn_toz34_sk1 = 1 \n
+        wpn_akms_kobra = 1 \n
         wpn_akms = 1 \n
         wpn_ak74m = 1 \n
         wpn_svt40 = 1 \n
@@ -6033,10 +6038,10 @@
     <visual>actors\stalker_bandit\stalker_bandit_2a</visual>
     <supplies>
         [spawn_loadout] \n
-        wpn_aks74 = 1 \n
+        wpn_aks74n = 1 \n
         wpn_sks = 1 \n
         wpn_aks47 = 1 \n
-        wpn_ak47 = 1 \n
+        wpn_akm = 1 \n
         [spawn_loadout2] \n
         wpn_pb = 1 \n
         wpn_tt33_2 = 1 \n
@@ -6195,7 +6200,7 @@
         wpn_toz34_so = 1 \n
         wpn_ak74m_1p29 = 1 \n
         wpn_ak74m = 1 \n
-        wpn_ak47 = 1 \n
+        wpn_aks74n = 1 \n
         wpn_ak74u_kobra = 1 \n
         [spawn_loadout2] \n
         wpn_fort = 1 \n
@@ -6584,6 +6589,8 @@
         wpn_aks74_1p29 = 1 \n
         wpn_aks74 = 1 \n
         wpn_vz65 = 1 \n
+        wpn_vintorez = 1 \n
+        wpn_hpsa = 1 \n
         [spawn_loadout2] \n
         wpn_cz52 = 1 \n
         wpn_aps = 1 \n
@@ -6684,7 +6691,9 @@
     <visual>actors\stalker_bandit\stalker_bandit2a</visual>
     <supplies>
         [spawn_loadout] \n
-        wpn_ak74 = 1 \n
+        wpn_aks74n = 1 \n
+        wpn_aks74n_ekp = 1 \n
+        wpn_aks74n_kobra = 1 \n
         wpn_aks47 = 1 \n
         wpn_bizon = 1 \n
         wpn_aks74 = 1 \n
@@ -6720,6 +6729,7 @@
         wpn_bm16_full = 1 \n
         wpn_toz34_so = 1 \n
         wpn_toz34_so_sk1 = 1 \n
+        wpn_pp2000 = 1 \n
         wpn_hpsa = 1 \n
         [spawn_loadout2] \n
         wpn_tt33 = 1 \n
@@ -6753,9 +6763,9 @@
         [spawn_loadout] \n
         wpn_remington870 = 1 \n
         wpn_ak74u_1p29 = 1 \n
-        wpn_ak74u = 1 \n
-        wpn_ak74_1p29 = 1 \n
-        wpn_ak74 = 1 \n
+        wpn_ak74u_kobra = 1 \n
+        wpn_aks74n_1p29 = 1 \n
+        wpn_aks74n = 1 \n
         wpn_mp5 = 1 \n
         wpn_bizon_kobra = 1 \n
         wpn_bizon = 1 \n
@@ -6865,7 +6875,7 @@
         wpn_ak102 = 1 \n
         wpn_ak74_1p29 = 1 \n
         wpn_ak74 = 1 \n
-        wpn_ar15 = 1 \n
+        wpn_vintorez = 1 \n
         [spawn_loadout2] \n
         wpn_fort = 1 \n
         wpn_glock35 = 1 \n
@@ -6966,6 +6976,8 @@
         [spawn_loadout] \n
         wpn_ak105 = 1 \n
         wpn_ak105_ekp = 1 \n
+        wpn_ak105 = 1 \n
+        wpn_ak102_ekp = 1 \n
         wpn_ak102 = 1 \n
         wpn_toz34_so = 1 \n
         wpn_remington870 = 1 \n
@@ -6999,9 +7011,13 @@
     <visual>actors\stalker_bandit\stalker_bandit5c</visual>
     <supplies>
         [spawn_loadout] \n
+        wpn_ak105 = 1 \n
+        wpn_ak104 = 1 \n
         wpn_mn91_pu = 1 \n
         wpn_mn91 = 1 \n
         wpn_sks = 1 \n
+        wpn_akms = 1 \n
+        wpn_akms_ekp =1 \n
         wpn_toz34_sk1 = 1 \n
         [spawn_loadout2] \n
         wpn_mp440 = 1 \n
@@ -7035,6 +7051,8 @@
         [spawn_loadout] \n
         wpn_toz34 = 1 \n
         wpn_ak101 = 1 \n
+        wpn_ak101_1p29 = 1 \n
+        wpn_ak101_kobra = 1 \n
         wpn_mp5sd = 1 \n
         wpn_akm = 1 \n
         wpn_ak47 = 1 \n
@@ -7106,8 +7124,9 @@
         [spawn_loadout] \n
         wpn_svt40 = 1 \n
         wpn_aks74n = 1 \n
+        wpn_aks74n_kobra = 1 \n
         wpn_mn91 = 1 \n
-        wpn_mp5sd = 1 \n
+        wpn_mp5 = 1 \n
         wpn_vz65 = 1 \n
         [spawn_loadout2] \n
         wpn_mp443 = 1 \n
@@ -7214,7 +7233,7 @@
         wpn_ak101 = 1 \n
         wpn_aks47 = 1 \n
         wpn_aks74_1p29 = 1 \n
-        wpn_ak74_1p29 = 1 \n
+        wpn_ak74m_1p29 = 1 \n
         [spawn_loadout2] \n
         wpn_aps = 1 \n
         wpn_colt1911 = 1 \n
@@ -7419,8 +7438,8 @@
     <visual>actors\stalker_bandit\stalker_bandit6h</visual>
     <supplies>
         [spawn_loadout] \n
-        wpn_ak74_ekp = 1 \n
-        wpn_ak74 = 1 \n
+        wpn_aks74n_ekp = 1 \n
+        wpn_aks74n = 1 \n
         wpn_ak101_ekp = 1 \n
         wpn_ak101 = 1 \n
         [spawn_loadout2] \n
@@ -7493,10 +7512,11 @@
     <visual>actors\stalker_bandit\stalker_bandit_exo</visual>
     <supplies>
         [spawn_loadout] \n
-        wpn_aks74_kobra = 1 \n
+        wpn_aks74_pso = 1 \n
         wpn_aks74 = 1 \n
-        wpn_ak74_kobra = 1 \n
-        wpn_ak74 = 1 \n
+        wpn_ak74_pso = 1 \n
+        wpn_aks74n_1p29 = 1 \n
+        wpn_aks74n_kobra = 1 \n
         wpn_rpk = 1 \n
         wpn_ak47_1p29 = 1 \n
         wpn_rpk74_ekp = 1 \n
@@ -7534,7 +7554,8 @@
         [spawn_loadout] \n
         wpn_wincheaster1300 = 1 \n
         wpn_aks47 = 1 \n
-        wpn_ak47_1p29 = 1 \n
+        wpn_akm_pso = 1 \n
+        wpn_aks74_pso = 1 \n
         wpn_svt40 = 1 \n
         wpn_akm_ekp = 1 \n
         wpn_akm = 1 \n
@@ -7573,7 +7594,7 @@
         wpn_sks_pu = 1 \n
         wpn_ak104_1p29 = 1 \n
         wpn_ak104 = 1 \n
-        wpn_ak74_pso = 1 \n
+        wpn_ak74m_pso = 1 \n
         wpn_svu = 1 \n
         [spawn_loadout2] \n
         wpn_desert_eagle = 1 \n
@@ -7605,7 +7626,7 @@
     <supplies>
         [spawn_loadout] \n
         wpn_pp2000 = 1 \n
-        wpn_ak74_pso = 1 \n
+        wpn_aks74n_pso = 1 \n
         wpn_val = 1 \n
         wpn_vintorez = 1 \n
         [spawn_loadout2] \n
@@ -7828,8 +7849,11 @@
         wpn_ak103 = 1 \n
         wpn_spas12 = 1 \n
         wpn_ak74u = 1 \n
-        wpn_ak74 = 1 \n
+        wpn_ak105 = 1 \n
+        wpn_ak105_kobra = 1 \n
+        wpn_ak105_1p29 = 1 \n
         wpn_mp5 = 1 \n
+        wpn_mp5sd = 1 \n
         wpn_spas12 = 1 \n
         [spawn_loadout2] \n
         wpn_desert_eagle = 1 \n
@@ -7975,7 +7999,7 @@
     <supplies>
         [spawn_loadout] \n
         wpn_ak74u = 1 \n
-        wpn_ak74 = 1 \n
+        wpn_ak74m = 1 \n
         wpn_ak47 = 1 \n
         [spawn_loadout2] \n
         wpn_mp443 = 1 \n
@@ -8038,7 +8062,7 @@
         [spawn_loadout] \n
         wpn_akms = 1 \n
         wpn_bizon = 1 \n
-        wpn_ak74 = 1 \n
+        wpn_ak74m = 1 \n
         [spawn_loadout2] \n
         wpn_cz52 = 1 \n
         wpn_aps = 1 \n
@@ -8101,7 +8125,7 @@
         [spawn_loadout] \n
         wpn_bizon = 1 \n
         wpn_pp2000 = 1 \n
-        wpn_ak74 = 1 \n
+        wpn_ak74m = 1 \n
         [spawn_loadout2] \n
         wpn_cz52 = 1 \n
         wpn_aps = 1 \n
@@ -8134,6 +8158,7 @@
         wpn_ak101 = 1 \n
         wpn_ak103 = 1 \n
         wpn_ar15 = 1 \n
+        wpn_ak74m = 1 \n
         [spawn_loadout2] \n
         wpn_cz75 = 1 \n
         wpn_pmm = 1 \n
@@ -8224,7 +8249,7 @@
         wpn_bizon = 1 \n
         wpn_ar15 = 1 \n
         wpn_ak74u = 1 \n
-        wpn_ak74 = 1 \n
+        wpn_ak74m = 1 \n
         [spawn_loadout2] \n
         wpn_mp443 = 1 \n
         wpn_tt33= 1 \n
@@ -9905,7 +9930,7 @@
         [spawn_loadout] \n
         wpn_bm16_full = 1 \n
         wpn_bm16 = 1 \n 
-        wpn_ak74 = 1 \n
+        wpn_aks74 = 1 \n
         wpn_ak74u = 1 \n
         [spawn_loadout2] \n
         wpn_tt33_2 = 1 \n
@@ -9936,8 +9961,8 @@
     <supplies>
         [spawn_loadout] \n
         wpn_toz34_so = 1 \n
-        wpn_bm16_full = 1 \n
-        wpn_ak74 = 1 \n
+        wpn_bm16 = 1 \n
+        wpn_toz34_so_sk1 = 1 \n
         wpn_vz65 = 1 \n
         [spawn_loadout2] \n
         wpn_tt33_2 = 1 \n
@@ -9969,7 +9994,7 @@
     <supplies>
         [spawn_loadout] \n
         wpn_vz65 = 1 \n
-        wpn_toz34 = 1 \n
+        wpn_toz34_so = 1 \n
         wpn_toz34_so_sk1 = 1 \n
         [spawn_loadout2] \n
         wpn_tt33_2 = 1 \n
@@ -10000,14 +10025,14 @@
     <supplies>
         [spawn_loadout] \n
         [spawn_loadout] \n
-	wpn_vz65 = 1 \n
-	wpn_ak74u = 1 \n
-	wpn_mn91 = 1 \n
-	[spawn_loadout2] \n
-	wpn_tt33_2 = 1 \n
-	wpn_pb = 1 \n
-	wpn_pmm = 1 \n
-	[spawn] \n
+        wpn_vz65 = 1 \n
+        wpn_ak74u = 1 \n
+        wpn_mn91 = 1 \n
+        [spawn_loadout2] \n
+        wpn_tt33_2 = 1 \n
+        wpn_pb = 1 \n
+        wpn_pmm = 1 \n
+        [spawn] \n
 #include "gameplay\character_items.xml"
 #include "gameplay\character_food.xml"
 #include "gameplay\character_drugs.xml"
@@ -10029,17 +10054,17 @@
     <reputation>-1175</reputation>
     <visual>actors\stalker_neutral\stalker_neutrala3</visual>
     <supplies>
-	[spawn_loadout] \n
-	wpn_vz65 = 1 \n
-	wpn_mp5 = 1 \n
-	wpn_ak74u = 1 \n
-	[spawn_loadout2] \n
-	wpn_tt33_2 = 1 \n
-	wpn_cz52 = 1 \n
-	wpn_pm = 1 \n
-	wpn_cz75 = 1 \n
-	wpn_tt33 = 1 \n
-	[spawn] \n
+        [spawn_loadout] \n
+        wpn_vz65 = 1 \n
+        wpn_mp5 = 1 \n
+        wpn_ak74u = 1 \n
+        [spawn_loadout2] \n
+        wpn_tt33_2 = 1 \n
+        wpn_cz52 = 1 \n
+        wpn_pm = 1 \n
+        wpn_cz75 = 1 \n
+        wpn_tt33 = 1 \n
+        [spawn] \n
 #include "gameplay\character_items.xml"
 #include "gameplay\character_food.xml"
 #include "gameplay\character_drugs.xml"
@@ -10061,21 +10086,21 @@
     <reputation>884</reputation>
     <visual>actors\stalker_neutral\stalker_neutrala4</visual>
     <supplies>
-	[spawn_loadout] \n
-	wpn_bm16 = 1 \n
-	wpn_toz34 = 1 \n
-	wpn_toz34_so_sk1 = 1 \n
-	wpn_aks47 = 1 \n
-	wpn_ak74m = 1 \n
-	wpn_ak74u = 1 \n
-	[spawn_loadout2] \n
-	wpn_tt33_2 = 1 \n
-	wpn_cz52 = 1 \n
-	wpn_pm = 1 \n
-	wpn_fort = 1 \n	
-	wpn_pb = 1 \n
-	wpn_pmm = 1 \n
-	[spawn] \n
+        [spawn_loadout] \n
+        wpn_bm16 = 1 \n
+        wpn_toz34 = 1 \n
+        wpn_toz34_so_sk1 = 1 \n
+        wpn_aks47 = 1 \n
+        wpn_ak74m = 1 \n
+        wpn_ak74u = 1 \n
+        [spawn_loadout2] \n
+        wpn_tt33_2 = 1 \n
+        wpn_cz52 = 1 \n
+        wpn_pm = 1 \n
+        wpn_fort = 1 \n        
+        wpn_pb = 1 \n
+        wpn_pmm = 1 \n
+        [spawn] \n
 #include "gameplay\character_items.xml"
 #include "gameplay\character_food.xml"
 #include "gameplay\character_drugs.xml"
@@ -10097,18 +10122,18 @@
     <reputation>983</reputation>
     <visual>actors\stalker_neutral\stalker_neutrala5</visual>
     <supplies>
-	[spawn_loadout] \n
-	wpn_toz34_so = 1 \n
-	wpn_bm16_full = 1 \n
-	wpn_bm16 = 1 \n
-	wpn_mn91 = 1 \n
-	wpn_svt40 = 1 \n
-	[spawn_loadout2] \n
-	wpn_tt33_2 = 1 \n
-	wpn_cz52 = 1 \n
-	wpn_pb = 1 \n
-	wpn_pmm = 1 \n
-	[spawn] \n
+        [spawn_loadout] \n
+        wpn_toz34_so = 1 \n
+        wpn_bm16_full = 1 \n
+        wpn_bm16 = 1 \n
+        wpn_mn91 = 1 \n
+        wpn_svt40 = 1 \n
+        [spawn_loadout2] \n
+        wpn_tt33_2 = 1 \n
+        wpn_cz52 = 1 \n
+        wpn_pb = 1 \n
+        wpn_pmm = 1 \n
+        [spawn] \n
 #include "gameplay\character_items.xml"
 #include "gameplay\character_food.xml"
 #include "gameplay\character_drugs.xml"
@@ -10130,17 +10155,17 @@
     <reputation>474</reputation>
     <visual>actors\stalker_neutral\stalker_neutrala6</visual>
     <supplies>
-	[spawn_loadout] \n
-	wpn_vz65 = 1 \n
-	wpn_bizon = 1 \n
-	wpn_bm16_full = 1 \n
-	[spawn_loadout2] \n
-	wpn_tt33_2 = 1 \n
-	wpn_cz52 = 1 \n
-	wpn_fort = 1 \n	
-	wpn_pb = 1 \n
-	wpn_pmm = 1 \n
-	[spawn] \n
+        [spawn_loadout] \n
+        wpn_vz65 = 1 \n
+        wpn_bizon = 1 \n
+        wpn_bm16_full = 1 \n
+        [spawn_loadout2] \n
+        wpn_tt33_2 = 1 \n
+        wpn_cz52 = 1 \n
+        wpn_fort = 1 \n        
+        wpn_pb = 1 \n
+        wpn_pmm = 1 \n
+        [spawn] \n
 #include "gameplay\character_items.xml"
 #include "gameplay\character_food.xml"
 #include "gameplay\character_drugs.xml"
@@ -10162,19 +10187,19 @@
     <reputation>-1372</reputation>
     <visual>actors\stalker_neutral\stalker_neutral_1_gas</visual>
     <supplies>
-	[spawn_loadout] \n
-	wpn_mn91 = 1 \n
-	wpn_svt40 = 1 \n
-	wpn_toz34 = 1 \n
-	wpn_toz34_so_sk1 = 1 \n
-	[spawn_loadout2] \n
-	wpn_tt33_2 = 1 \n
-	wpn_cz52 = 1 \n
-	wpn_pm = 1 \n
-	wpn_fort = 1 \n	
-	wpn_pb = 1 \n
-	wpn_pmm = 1 \n
-	[spawn] \n
+        [spawn_loadout] \n
+        wpn_mn91 = 1 \n
+        wpn_svt40 = 1 \n
+        wpn_toz34_so = 1 \n
+        wpn_toz34_so_sk1 = 1 \n
+        [spawn_loadout2] \n
+        wpn_tt33_2 = 1 \n
+        wpn_cz52 = 1 \n
+        wpn_pm = 1 \n
+        wpn_fort = 1 \n        
+        wpn_pb = 1 \n
+        wpn_pmm = 1 \n
+        [spawn] \n
 #include "gameplay\character_items.xml"
 #include "gameplay\character_food.xml"
 #include "gameplay\character_drugs.xml"
@@ -10196,20 +10221,19 @@
     <reputation>-1383</reputation>
     <visual>actors\stalker_neutral\stalker_neutral1a_gas</visual>
     <supplies>
-	[spawn_loadout] \n
-	wpn_bm16 = 1 \n
-	wpn_toz34 = 1 \n
-	wpn_toz34_so_sk1 = 1 \n
-	wpn_ak74u = 1 \n
-	wpn_ak74 = 1 \n
-	wpn_akm = 1 \n
-	[spawn_loadout2] \n
-	wpn_tt33_2 = 1 \n
-	wpn_cz52 = 1 \n
-	wpn_fort = 1 \n	
-	wpn_pb = 1 \n
-	wpn_pmm = 1 \n
-	[spawn] \n
+        [spawn_loadout] \n
+        wpn_bm16 = 1 \n
+        wpn_toz34_so_sk1 = 1 \n
+        wpn_ak74u = 1 \n
+        wpn_ak74 = 1 \n
+        wpn_akm = 1 \n
+        [spawn_loadout2] \n
+        wpn_tt33_2 = 1 \n
+        wpn_cz52 = 1 \n
+        wpn_fort = 1 \n        
+        wpn_pb = 1 \n
+        wpn_pmm = 1 \n
+        [spawn] \n
 #include "gameplay\character_items.xml"
 #include "gameplay\character_food.xml"
 #include "gameplay\character_drugs.xml"
@@ -10231,18 +10255,18 @@
     <reputation>-18</reputation>
     <visual>actors\stalker_neutral\stalker_neutral1b_gas</visual>
     <supplies>
-	[spawn_loadout] \n
-	wpn_ak74u = 1 \n
-	wpn_ak74 = 1 \n
-	wpn_ak47 = 1 \n
-	wpn_svt40 = 1 \n
-	[spawn_loadout2] \n
-	wpn_tt33_2 = 1 \n
-	wpn_tt33 = 1 \n
-	wpn_fort = 1 \n	
-	wpn_pb = 1 \n
-	wpn_pmm = 1 \n
-	[spawn] \n
+        [spawn_loadout] \n
+        wpn_ak74u = 1 \n
+        wpn_ak74m = 1 \n
+        wpn_akm = 1 \n
+        wpn_svt40 = 1 \n
+        [spawn_loadout2] \n
+        wpn_tt33_2 = 1 \n
+        wpn_tt33 = 1 \n
+        wpn_fort = 1 \n        
+        wpn_pb = 1 \n
+        wpn_pmm = 1 \n
+        [spawn] \n
 #include "gameplay\character_items.xml"
 #include "gameplay\character_food.xml"
 #include "gameplay\character_drugs.xml"
@@ -10264,22 +10288,22 @@
     <reputation>-853</reputation>
     <visual>actors\stalker_neutral\stalker_neutral1c_gas</visual>
     <supplies>
-	[spawn_loadout] \n
-	wpn_aks74_ekp = 1 \n
-	wpn_aks74 = 1 \n
-	wpn_akms_ekp = 1 \n
-	wpn_akms = 1 \n
-	wpn_toz34_sk1 = 1 \n
-	wpn_akm = 1 \n
-	wpn_ak105 = 1 \n
-	[spawn_loadout2] \n
-	wpn_tt33_2 = 1 \n
-	wpn_cz52 = 1 \n
-	wpn_pm = 1 \n
-	wpn_fort = 1 \n	
-	wpn_pb = 1 \n
-	wpn_pmm = 1 \n
-	[spawn] \n
+        [spawn_loadout] \n
+        wpn_aks74_ekp = 1 \n
+        wpn_aks74 = 1 \n
+        wpn_akms_ekp = 1 \n
+        wpn_akms = 1 \n
+        wpn_toz34_sk1 = 1 \n
+        wpn_akm = 1 \n
+        wpn_ak105 = 1 \n
+        [spawn_loadout2] \n
+        wpn_tt33_2 = 1 \n
+        wpn_cz52 = 1 \n
+        wpn_pm = 1 \n
+        wpn_fort = 1 \n        
+        wpn_pb = 1 \n
+        wpn_pmm = 1 \n
+        [spawn] \n
 #include "gameplay\character_items.xml"
 #include "gameplay\character_food.xml"
 #include "gameplay\character_drugs.xml"
@@ -10301,16 +10325,16 @@
     <reputation>76</reputation>
     <visual>actors\stalker_neutral\stalker_neutral1d_gas</visual>
     <supplies>
-	[spawn_loadout] \n
-	wpn_aks74 = 1 \n
-	wpn_ak47 = 1 \n
-	wpn_akm = 1 \n
-	wpn_aks74n = 1 \n
-	[spawn_loadout2] \n
-	wpn_tt33_2 = 1 \n
-	wpn_cz52 = 1 \n
-	wpn_pm = 1 \n
-	[spawn] \n
+        [spawn_loadout] \n
+        wpn_aks74 = 1 \n
+        wpn_ak47 = 1 \n
+        wpn_akm = 1 \n
+        wpn_aks74n = 1 \n
+        [spawn_loadout2] \n
+        wpn_tt33_2 = 1 \n
+        wpn_cz52 = 1 \n
+        wpn_pm = 1 \n
+        [spawn] \n
 #include "gameplay\character_items.xml"
 #include "gameplay\character_food.xml"
 #include "gameplay\character_drugs.xml"
@@ -10332,21 +10356,21 @@
     <reputation>-1500</reputation>
     <visual>actors\stalker_neutral\stalker_neutral1e_gas</visual>
     <supplies>
-	[spawn_loadout] \n
-	wpn_toz34_so = 1 \n
-	wpn_bm16_full = 1 \n
-	wpn_bm16 = 1 \n
-	wpn_toz34_so_sk1 = 1 \n
-	wpn_aks74 = 1 \n
-	wpn_ak74 = 1 \n
-	wpn_ak74u = 1 \n
-	[spawn_loadout2] \n
-	wpn_tt33_2 = 1 \n
-	wpn_cz52 = 1 \n
-	wpn_pm = 1 \n
-	wpn_pb = 1 \n
-	wpn_pmm = 1 \n
-	[spawn] \n
+        [spawn_loadout] \n
+        wpn_toz34_so = 1 \n
+        wpn_bm16_full = 1 \n
+        wpn_bm16 = 1 \n
+        wpn_toz34_so_sk1 = 1 \n
+        wpn_aks74 = 1 \n
+        wpn_ak74m = 1 \n
+        wpn_ak74u = 1 \n
+        [spawn_loadout2] \n
+        wpn_tt33_2 = 1 \n
+        wpn_cz52 = 1 \n
+        wpn_pm = 1 \n
+        wpn_pb = 1 \n
+        wpn_pmm = 1 \n
+        [spawn] \n
 #include "gameplay\character_items.xml"
 #include "gameplay\character_food.xml"
 #include "gameplay\character_drugs.xml"
@@ -10368,21 +10392,21 @@
     <reputation>-2226</reputation>
     <visual>actors\stalker_neutral\stalker_neutral1f_gas</visual>
     <supplies>
-	[spawn_loadout] \n
-	wpn_bm16 = 1 \n
-	wpn_toz34 = 1 \n
-	wpn_toz34_so_sk1 = 1 \n
-	wpn_mn91 = 1 \n
-	wpn_akm = 1 \n
-	wpn_ak74m = 1 \n
-	wpn_ak74m_kobra = 1 \n
-	[spawn_loadout2] \n
-	wpn_tt33_2 = 1 \n
-	wpn_tt33 = 1 \n
-	wpn_fort = 1 \n	
-	wpn_pb = 1 \n
-	wpn_pmm = 1 \n
-	[spawn] \n
+        [spawn_loadout] \n
+        wpn_bm16 = 1 \n
+        wpn_toz34 = 1 \n
+        wpn_toz34_so_sk1 = 1 \n
+        wpn_mn91 = 1 \n
+        wpn_akm = 1 \n
+        wpn_ak74m = 1 \n
+        wpn_ak74m_kobra = 1 \n
+        [spawn_loadout2] \n
+        wpn_tt33_2 = 1 \n
+        wpn_tt33 = 1 \n
+        wpn_fort = 1 \n        
+        wpn_pb = 1 \n
+        wpn_pmm = 1 \n
+        [spawn] \n
 #include "gameplay\character_items.xml"
 #include "gameplay\character_food.xml"
 #include "gameplay\character_drugs.xml"
@@ -10404,20 +10428,20 @@
     <reputation>-2156</reputation>
     <visual>actors\stalker_neutral\stalker_neutral_1_mas2</visual>
     <supplies>
-	[spawn_loadout] \n
-	wpn_aks74 = 1 \n
-	wpn_toz34_so = 1 \n
-	wpn_ak74m_ekp = 1 \n
-	wpn_ak74m = 1 \n
-	wpn_mp5 = 1 \n
-	wpn_spas12 = 1 \n
-	[spawn_loadout2] \n
-	wpn_tt33_2 = 1 \n
-	wpn_cz52 = 1 \n
-	wpn_fort = 1 \n	
-	wpn_pb = 1 \n
-	wpn_pmm = 1 \n
-	[spawn] \n
+        [spawn_loadout] \n
+        wpn_aks74 = 1 \n
+        wpn_toz34_so = 1 \n
+        wpn_ak74m_ekp = 1 \n
+        wpn_ak74m = 1 \n
+        wpn_mp5 = 1 \n
+        wpn_spas12 = 1 \n
+        [spawn_loadout2] \n
+        wpn_tt33_2 = 1 \n
+        wpn_cz52 = 1 \n
+        wpn_fort = 1 \n        
+        wpn_pb = 1 \n
+        wpn_pmm = 1 \n
+        [spawn] \n
 #include "gameplay\character_items.xml"
 #include "gameplay\character_food.xml"
 #include "gameplay\character_drugs.xml"
@@ -10439,18 +10463,18 @@
     <reputation>-1559</reputation>
     <visual>actors\stalker_neutral\stalker_neutral1a_mas2</visual>
     <supplies>
-	[spawn_loadout] \n
-	wpn_mn91 = 1 \n
-	wpn_vz65 = 1 \n
-	wpn_toz34_so = 1 \n
-	wpn_ak74u = 1 \n
-	[spawn_loadout2] \n
-	wpn_tt33_2 = 1 \n
-	wpn_cz52 = 1 \n
-	wpn_pm = 1 \n
-	wpn_pb = 1 \n
-	wpn_pmm = 1 \n
-	[spawn] \n
+        [spawn_loadout] \n
+        wpn_mn91 = 1 \n
+        wpn_vz65 = 1 \n
+        wpn_toz34_so = 1 \n
+        wpn_ak74u = 1 \n
+        [spawn_loadout2] \n
+        wpn_tt33_2 = 1 \n
+        wpn_cz52 = 1 \n
+        wpn_pm = 1 \n
+        wpn_pb = 1 \n
+        wpn_pmm = 1 \n
+        [spawn] \n
 #include "gameplay\character_items.xml"
 #include "gameplay\character_food.xml"
 #include "gameplay\character_drugs.xml"
@@ -10472,19 +10496,18 @@
     <reputation>1751</reputation>
     <visual>actors\stalker_neutral\stalker_neutral1b_mas2</visual>
     <supplies>
-	[spawn_loadout] \n
-	wpn_ak74u = 1 \n
-	wpn_ak74 = 1 \n
-	wpn_aks74 = 1 \n
-	wpn_svt40 = 1 \n
-	wpn_toz34_so_sk1 = 1 \n
-	[spawn_loadout2] \n
-	wpn_tt33_2 = 1 \n
-	wpn_cz52 = 1 \n
-	wpn_fort = 1 \n	
-	wpn_pb = 1 \n
-	wpn_pmm = 1 \n
-	[spawn] \n
+        [spawn_loadout] \n
+        wpn_ak74u = 1 \n
+        wpn_aks74 = 1 \n
+        wpn_svt40 = 1 \n
+        wpn_toz34_so_sk1 = 1 \n
+        [spawn_loadout2] \n
+        wpn_tt33_2 = 1 \n
+        wpn_cz52 = 1 \n
+        wpn_fort = 1 \n        
+        wpn_pb = 1 \n
+        wpn_pmm = 1 \n
+        [spawn] \n
 #include "gameplay\character_items.xml"
 #include "gameplay\character_food.xml"
 #include "gameplay\character_drugs.xml"
@@ -10506,19 +10529,19 @@
     <reputation>-2310</reputation>
     <visual>actors\stalker_neutral\stalker_neutral1c_mas2</visual>
     <supplies>
-	[spawn_loadout] \n
-	wpn_toz34_so_sk1 = 1 \n
-	wpn_aks47 = 1 \n
-	wpn_toz34_so = 1 \n
-	wpn_vintorez = 1 \n
-	wpn_toz34 = 1 \n
-	[spawn_loadout2] \n
-	wpn_tt33_2 = 1 \n
-	wpn_cz75 = 1 \n
-	wpn_fort = 1 \n	
-	wpn_pb = 1 \n
-	wpn_pmm = 1 \n
-	[spawn] \n
+        [spawn_loadout] \n
+        wpn_toz34_so_sk1 = 1 \n
+        wpn_aks47 = 1 \n
+        wpn_toz34_so = 1 \n
+        wpn_vintorez = 1 \n
+        wpn_toz34 = 1 \n
+        [spawn_loadout2] \n
+        wpn_tt33_2 = 1 \n
+        wpn_cz75 = 1 \n
+        wpn_fort = 1 \n
+        wpn_pb = 1 \n
+        wpn_pmm = 1 \n
+        [spawn] \n
 #include "gameplay\character_items.xml"
 #include "gameplay\character_food.xml"
 #include "gameplay\character_drugs.xml"
@@ -10540,20 +10563,20 @@
     <reputation>-2097</reputation>
     <visual>actors\stalker_neutral\stalker_neutral1d_mas2</visual>
     <supplies>
-	[spawn_loadout] \n
-	wpn_ak74u = 1 \n
-	wpn_aks74 = 1 \n
-	wpn_ak74 = 1 \n
-	wpn_bm16 = 1 \n
-	wpn_toz34_so = 1 \n
-	[spawn_loadout2] \n
-	wpn_tt33_2 = 1 \n
-	wpn_cz75 = 1 \n
-	wpn_tt33 = 1 \n
-	wpn_fort = 1 \n	
-	wpn_pb = 1 \n
-	wpn_pmm = 1 \n
-	[spawn] \n
+        [spawn_loadout] \n
+        wpn_ak74u = 1 \n
+        wpn_aks74 = 1 \n
+        wpn_ak74m = 1 \n
+        wpn_bm16 = 1 \n
+        wpn_toz34_so = 1 \n
+        [spawn_loadout2] \n
+        wpn_tt33_2 = 1 \n
+        wpn_cz75 = 1 \n
+        wpn_tt33 = 1 \n
+        wpn_fort = 1 \n        
+        wpn_pb = 1 \n
+        wpn_pmm = 1 \n
+        [spawn] \n
 #include "gameplay\character_items.xml"
 #include "gameplay\character_food.xml"
 #include "gameplay\character_drugs.xml"
@@ -10575,18 +10598,18 @@
     <reputation>-1258</reputation>
     <visual>actors\stalker_neutral\stalker_neutral1e_mas2</visual>
     <supplies>
-	[spawn_loadout] \n
-	wpn_sks = 1 \n
-	wpn_bizon = 1 \n
-	wpn_bm16_full = 1 \n
-	[spawn_loadout2] \n
-	wpn_tt33_2 = 1 \n
-	wpn_cz52 = 1 \n
-	wpn_pm = 1 \n
-	wpn_cz75 = 1 \n
-	wpn_pb = 1 \n
-	wpn_pmm = 1 \n
-	[spawn] \n
+        [spawn_loadout] \n
+        wpn_sks = 1 \n
+        wpn_bizon = 1 \n
+        wpn_bm16_full = 1 \n
+        [spawn_loadout2] \n
+        wpn_tt33_2 = 1 \n
+        wpn_cz52 = 1 \n
+        wpn_pm = 1 \n
+        wpn_cz75 = 1 \n
+        wpn_pb = 1 \n
+        wpn_pmm = 1 \n
+        [spawn] \n
 #include "gameplay\character_items.xml"
 #include "gameplay\character_food.xml"
 #include "gameplay\character_drugs.xml"
@@ -10608,19 +10631,19 @@
     <reputation>111</reputation>
     <visual>actors\stalker_neutral\stalker_neutral1f_mas2</visual>
     <supplies>
-	[spawn_loadout] \n
-	wpn_toz34_so_sk1 = 1 \n
-	wpn_ak74u = 1 \n
-	wpn_akm = 1 \n
-	wpn_ak74 = 1 \n
-	[spawn_loadout2] \n
-	wpn_tt33_2 = 1 \n
-	wpn_cz52 = 1 \n
-	wpn_pm = 1 \n
-	wpn_cz75 = 1 \n
-	wpn_pb = 1 \n
-	wpn_pmm = 1 \n
-	[spawn] \n
+        [spawn_loadout] \n
+        wpn_toz34_so_sk1 = 1 \n
+        wpn_ak74u = 1 \n
+        wpn_akm = 1 \n
+        wpn_aks74n = 1 \n
+        [spawn_loadout2] \n
+        wpn_tt33_2 = 1 \n
+        wpn_cz52 = 1 \n
+        wpn_pm = 1 \n
+        wpn_cz75 = 1 \n
+        wpn_pb = 1 \n
+        wpn_pmm = 1 \n
+        [spawn] \n
 #include "gameplay\character_items.xml"
 #include "gameplay\character_food.xml"
 #include "gameplay\character_drugs.xml"
@@ -10645,8 +10668,8 @@
     <supplies>
         [spawn_loadout] \n
         wpn_mn91 = 1 \n
-        wpn_ak74 = 1 \n
-        wpn_ak47 = 1 \n
+        wpn_ak74u = 1 \n
+        wpn_akm = 1 \n
         wpn_sks = 1 \n
         wpn_sks_pu = 1 \n
         wpn_toz34 = 1 \n
@@ -10679,17 +10702,16 @@
     <visual>actors\stalker_neutral\stalker_neutral2a</visual>
     <supplies>
         [spawn_loadout] \n
-        wpn_ak74 = 1 \n
-        wpn_ak47 = 1 \n
+        wpn_ak74u = 1 \n
+        wpn_aks74 = 1 \n
         wpn_akm = 1 \n
         wpn_toz34_so = 1 \n
         wpn_sks = 1 \n
         wpn_sks_pu = 1 \n
-        wpn_ak74u = 1 \n
-        wpn_toz34 = 1 \n
+        wpn_aks74n = 1 \n
+        wpn_toz34_so = 1 \n
         wpn_toz34_so_sk1 = 1 \n
         [spawn_loadout2] \n
-        wpn_cz52 = 1 \n
         wpn_ots33 = 1 \n
         wpn_pm = 1 \n
         wpn_pmm = 1 \n
@@ -10725,8 +10747,9 @@
         wpn_vz65 = 1 \n
         wpn_toz34_so_sk1 = 1 \n
         [spawn_loadout2] \n
-        wpn_cz52 = 1 \n
-        wpn_pmm = 1 \n
+        wpn_tt33 = 1 \n
+        wpn_fort = 1 \n
+        wpn_colt1911_sk2 = 1 \n
         wpn_tt33_2 = 1 \n
         wpn_cz75 = 1 \n
         [spawn] \n
@@ -10752,13 +10775,11 @@
     <visual>actors\stalker_neutral\stalker_neutral2c</visual>
     <supplies>
         [spawn_loadout] \n
-        wpn_ak74 = 1 \n
-        wpn_ak47 = 1 \n
-        wpn_ak74u = 1 \n
-        wpn_toz34 = 1 \n
-        wpn_toz34_so_sk1 = 1 \n
+        wpn_aks74n = 1 \n
+        wpn_ak74u_kobra = 1 \n
+        wpn_mp5 = 1 \n
+        wpn_ak74m = 1 \n
         [spawn_loadout2] \n
-        wpn_cz52 = 1 \n
         wpn_ots33 = 1 \n
         wpn_pm = 1 \n
         wpn_pmm = 1 \n
@@ -10800,7 +10821,7 @@
         wpn_toz34 = 1 \n
         wpn_toz34_so_sk1 = 1 \n
         [spawn_loadout2] \n
-        wpn_cz52 = 1 \n
+        wpn_mp443 = 1 \n
         wpn_ots33 = 1 \n
         wpn_pm = 1 \n
         wpn_pmm = 1 \n
@@ -10829,8 +10850,8 @@
     <visual>actors\stalker_neutral\stalker_neutral_0</visual>
     <supplies>
         [spawn_loadout] \n
-        wpn_ak74 = 1 \n
-        wpn_ak47 = 1 \n
+        wpn_aks74 = 1 \n
+        wpn_aks74n = 1 \n
         wpn_bm16 = 1 \n
         wpn_sks = 1 \n
         wpn_sks_pu = 1 \n
@@ -10865,12 +10886,12 @@
     <visual>actors\stalker_neutral\stalker_neutral0a</visual>
     <supplies>
         [spawn_loadout] \n
-        wpn_ak74 = 1 \n
+        wpn_aks74n = 1 \n
         wpn_bizon = 1 \n
         wpn_vz65 = 1 \n
         wpn_bm16 = 1 \n
         wpn_ak74u = 1 \n
-        wpn_toz34 = 1 \n
+        wpn_toz34_so = 1 \n
         wpn_toz34_so_sk1 = 1 \n
         [spawn_loadout2] \n
         wpn_cz52 = 1 \n
@@ -10901,14 +10922,14 @@
     <visual>actors\stalker_neutral\stalker_neutral0b</visual>
     <supplies>
         [spawn_loadout] \n
-        wpn_ak74 = 1 \n
-        wpn_ak47 = 1 \n
+        wpn_aks74 = 1 \n
+        wpn_akm = 1 \n
         wpn_bizon = 1 \n
         wpn_vz65 = 1 \n
         wpn_sks = 1 \n
         wpn_sks_pu = 1 \n
         wpn_ak74u = 1 \n
-        wpn_toz34 = 1 \n
+        wpn_toz34_so = 1 \n
         wpn_toz34_so_sk1 = 1 \n
         [spawn_loadout2] \n
         wpn_cz52 = 1 \n
@@ -10941,7 +10962,8 @@
     <visual>actors\stalker_neutral\stalker_neutral0c</visual>
     <supplies>
         [spawn_loadout] \n
-        wpn_ak74 = 1 \n
+        wpn_ak74m = 1 \n
+        wpn_ak74m_ekp = 1 \n
         wpn_bm16_full = 1 \n
         wpn_bizon = 1 \n
         wpn_toz34_so_sk1 = 1 \n
@@ -10974,8 +10996,10 @@
     <visual>actors\stalker_neutral\stalker_neutral0d</visual>
     <supplies>
         [spawn_loadout] \n
-        wpn_ak74 = 1 \n
-        wpn_ak47 = 1 \n
+        wpn_ak74m = 1 \n
+        wpn_ak74m_kobra = 1 \n
+        wpn_ak74u_kobra = 1 \n
+        wpn_ak74u_ekp = 1 \n
         wpn_bizon = 1 \n
         wpn_vz65 = 1 \n
         wpn_bm16 = 1 \n
@@ -11011,6 +11035,7 @@
         wpn_bm16_full = 1 \n
         wpn_bizon = 1 \n
         wpn_vz65 = 1 \n
+        wpn_ak74u_ekp =1 \n
         [spawn_loadout2] \n
         wpn_pb = 1 \n
         wpn_pmm = 1 \n
@@ -11042,7 +11067,8 @@
         wpn_vz65 = 1 \n
         wpn_bm16 = 1 \n
         wpn_ak74u = 1 \n
-        wpn_toz34 = 1 \n
+        wpn_ak74u_kobra = 1 \n
+        wpn_toz34_so = 1 \n
         wpn_toz34_so_sk1 = 1 \n
         [spawn_loadout2] \n
         wpn_cz52 = 1 \n
@@ -11072,8 +11098,10 @@
     <visual>actors\stalker_neutral\stalker_neutral2b_mask</visual>
     <supplies>
         [spawn_loadout] \n
-        wpn_ak74 = 1 \n
-        wpn_ak47 = 1 \n
+        wpn_ak74m = 1 \n
+        wpn_ak74m_ekp = 1 \n
+        wpn_ak74u = 1 \n
+        wpn_ak74u_kobra = 1 \n
         wpn_akm = 1 \n
         [spawn_loadout2] \n
         wpn_cz52 = 1 \n
@@ -11135,6 +11163,7 @@
         wpn_vz65 = 1 \n
         wpn_bm16 = 1 \n
         wpn_ak74u = 1 \n
+        wpn_aks74n = 1 \n
         wpn_toz34_so_sk1 = 1 \n
         [spawn_loadout2] \n
         wpn_cz52 = 1 \n
@@ -11164,9 +11193,9 @@
     <visual>actors\stalker_neutral\stalker_neutral_2mask1</visual>
     <supplies>
         [spawn_loadout] \n
-        wpn_ak47 = 1 \n
+        wpn_aks74 = 1 \n
         wpn_ak74u = 1 \n
-        wpn_toz34 = 1 \n
+        wpn_toz34_so = 1 \n
         wpn_toz34_so_sk1 = 1 \n
         [spawn_loadout2] \n
         wpn_pb = 1 \n
@@ -11199,7 +11228,10 @@
         wpn_bizon = 1 \n
         wpn_vz65 = 1 \n
         wpn_bm16 = 1 \n
+        wpn_akms = 1 \n
+        wpn_akms_kobra = 1 \n
         wpn_ak74u = 1 \n
+        wpn_ak74u_kobra = 1 \n
         [spawn_loadout2] \n
         wpn_tt33_2 = 1 \n
         wpn_cz75 = 1 \n
@@ -11263,7 +11295,7 @@
     <supplies>
         [spawn_loadout] \n
         wpn_akm = 1 \n
-        wpn_saiga = 1 \n
+        wpn_bizon = 1 \n
         wpn_mp5 = 1 \n
         wpn_vz65 = 1 \n
         [spawn_loadout2] \n
@@ -11298,6 +11330,7 @@
         wpn_vz65 = 1 \n
         wpn_ak74u = 1 \n
         wpn_toz34_so_sk1 = 1 \n
+        wpn_bm16 = 1 \n
         [spawn_loadout2] \n
         wpn_aps = 1 \n
         wpn_tt33_2 = 1 \n
@@ -11330,15 +11363,14 @@
         wpn_vz65 = 1 \n
         wpn_bm16 = 1 \n
         wpn_ak74u = 1 \n
+        wpn_akm = 1 \n
         wpn_sks = 1 \n
-        wpn_sks_pu = 1 \n
         [spawn_loadout2] \n
         wpn_pb = 1 \n
         wpn_pmm = 1 \n
+        wpn_cz75 = 1 \n
         wpn_aps = 1 \n
         [spawn] \n
-        grenade_f1 = 2 \n
-        grenade_rgd5 = 2 \n
 #include "gameplay\character_items.xml"
 #include "gameplay\character_food.xml"
 #include "gameplay\character_drugs_2.xml"
@@ -11363,11 +11395,13 @@
         [spawn_loadout] \n
         wpn_mn91 = 1 \n
         wpn_akm = 1 \n
+        wpn_akm_kobra = 1 \n
         wpn_vz65 = 1 \n
         wpn_bm16 = 1 \n
+        wpn_aks74n_kobra = 1 \n
+        wpn_aks74n = 1 \m
         [spawn_loadout2] \n
-        wpn_cz52 = 1 \n
-        wpn_ots33 = 1 \n
+        wpn_colt1911 = 1 \n
         wpn_tt33_2 = 1 \n
         wpn_cz75 = 1 \n
         wpn_beretta = 1 \n
@@ -11398,7 +11432,7 @@
         wpn_ak47 = 1 \n
         wpn_mn91 = 1 \n
         wpn_akm = 1 \n
-        wpn_saiga = 1 \n
+        wpn_mossberg = 1 \n
         wpn_mp5 = 1 \n
         [spawn_loadout2] \n
         wpn_cz52 = 1 \n
@@ -11436,7 +11470,7 @@
         wpn_toz34 = 1 \n
         wpn_toz34_so_sk1 = 1 \n
         [spawn_loadout2] \n
-        wpn_cz52 = 1 \n
+        wpn_cz75 = 1 \n
         wpn_ots33 = 1 \n
         wpn_pm = 1 \n
         wpn_pb = 1 \n
@@ -11469,7 +11503,9 @@
         wpn_bizon = 1 \n
         wpn_vz65 = 1 \n
         [spawn_loadout2] \n
-        wpn_pmm = 1 \n
+        wpn_fort = 1 \n
+        wpn_sig220 = 1 \n
+        wpn_glock35 = 1 \n
         wpn_aps = 1 \n
         wpn_tt33_2 = 1 \n
         wpn_cz75 = 1 \n
@@ -11500,13 +11536,15 @@
         wpn_mp5 = 1 \n
         wpn_toz34_so = 1 \n
         wpn_bm16_full = 1 \n
+        wpn_mossberg = 1 \n
         wpn_bizon = 1 \n
         wpn_toz34_so_sk1 = 1 \n
         [spawn_loadout2] \n
-        wpn_aps = 1 \n
-        wpn_tt33_2 = 1 \n
-        wpn_cz75 = 1 \n
-        wpn_beretta = 1 \n
+        wpn_cz52 = 1 \n
+        wpn_walther = 1 \n
+        wpn_mp440 = 1 \n
+        wpn_colt1911_sk2 = 1 \n
+        wpn_mp443 = 1 \n
         [spawn] \n
 #include "gameplay\character_items.xml"
 #include "gameplay\character_food.xml"
@@ -11530,13 +11568,13 @@
     <visual>actors\stalker_neutral\stalker_neutral2f</visual>
     <supplies>
         [spawn_loadout] \n
-        wpn_mn91 = 1 \n
         wpn_akm = 1 \n
-        wpn_saiga = 1 \n
+        wpn_aks74 = 1 \n
+        wpn_mossberg = 1 \n
         wpn_mp5 = 1 \n
-        wpn_toz34_so_sk1 = 1 \n
+        wpn_mp5_c-more = 1 \n
         [spawn_loadout2] \n
-        wpn_cz52 = 1 \n
+        wpn_gsh18 = 1 \n
         wpn_ots33 = 1 \n
         wpn_tt33_2 = 1 \n
         wpn_cz75 = 1 \n
@@ -11564,9 +11602,11 @@
     <visual>actors\stalker_neutral\stalker_neutral0e</visual>
     <supplies>
         [spawn_loadout] \n
+        wpn_remington870 = 1 \n
+        wpn_ak74m_ekp = 1 \n
         wpn_ak74 = 1 \n
-        wpn_ak47 = 1 \n
-        wpn_mn91_pu = 1 \n
+        wpn_mp5 = 1 \n
+        wpn_wincheaster1300 = 1 \n
         [spawn_loadout2] \n
         wpn_cz52 = 1 \n
         wpn_cz75 = 1 \n
@@ -11595,22 +11635,18 @@
     <supplies>
         [spawn_loadout] \n
         wpn_mn91_pu = 1 \n
-        wpn_akm = 1 \n
+        wpn_ak74m = 1 \n
         wpn_mp5 = 1 \n
         wpn_bm16 = 1 \n
         wpn_ak74u = 1 \n
+        wpn_ak74u_kobra = 1 \n
         wpn_toz34 = 1 \n
         wpn_toz34_so_sk1 = 1 \n
         [spawn_loadout2] \n
-        wpn_cz52 = 1 \n
-        wpn_ots33 = 1 \n
+        wpn_mp443 = 1 \n
+        wpn_beretta = 1 \n
         wpn_pm = 1 \n
         wpn_pb = 1 \n
-        wpn_pmm = 1 \n
-        wpn_aps = 1 \n
-        wpn_tt33_2 = 1 \n
-        wpn_cz75 = 1 \n
-        wpn_beretta = 1 \n
         [spawn] \n
 #include "gameplay\character_items.xml"
 #include "gameplay\character_food.xml"
@@ -11637,7 +11673,7 @@
         wpn_ak74 = 1 \n
         wpn_mn91_pu = 1 \n
         wpn_akm = 1 \n
-        wpn_saiga = 1 \n
+        wpn_mossberg = 1 \n
         wpn_ak74u = 1 \n
         [spawn_loadout2] \n
         wpn_cz52 = 1 \n
@@ -11701,17 +11737,14 @@
     <visual>actors\stalker_neutral\stalker_neutral2emask1</visual>
     <supplies>
         [spawn_loadout] \n
-        wpn_ak74 = 1 \n
-        wpn_ak47 = 1 \n
+        wpn_ak74u = 1 \n
+        wpn_aks74 = 1 \n
         wpn_mn91 = 1 \n
         wpn_vz65 = 1 \n
         wpn_bm16 = 1 \n
-        wpn_ak74u = 1 \n
         wpn_toz34 = 1 \n
         wpn_toz34_so_sk1 = 1 \n
         [spawn_loadout2] \n
-        wpn_cz52 = 1 \n
-        wpn_ots33 = 1 \n
         wpn_pm = 1 \n
         wpn_tt33_2 = 1 \n
         wpn_cz75 = 1 \n
@@ -11747,9 +11780,9 @@
         wpn_toz34_so_sk1 = 1 \n
         [spawn_loadout2] \n
         wpn_aps = 1 \n
-        wpn_tt33_2 = 1 \n
-        wpn_cz75 = 1 \n
-        wpn_beretta = 1 \n
+        wpn_glock17 = 1 \n
+        wpn_tt33 = 1 \n
+        wpn_fort = 1 \n
         [spawn] \n
 #include "gameplay\character_items.xml"
 #include "gameplay\character_food.xml"
@@ -11773,14 +11806,15 @@
     <visual>actors\stalker_neutral\stalker_neutral2fmask2</visual>
     <supplies>
         [spawn_loadout] \n
-        wpn_mn91 = 1 \n
-        wpn_mn91_pu = 1 \n
-        wpn_vz65 = 1 \n
-        wpn_bm16 = 1 \n
-        wpn_ak74u = 1 \n
+        wpn_toz34 = 1 \n
+        wpn_mp5 = 1 \n
+        wpn_aks74_1p29 = 1 \n
+        wpn_aks74 = 1 \n
+        wpn_bm16_full = 1 \n
+        wpn_ak47 = 1 \n
         [spawn_loadout2] \n
-        wpn_pmm = 1 \n
-        wpn_aps = 1 \n
+        wpn_pm = 1 \n
+        wpn_walther = 1 \n
         wpn_tt33_2 = 1 \n
         wpn_cz75 = 1 \n
         wpn_beretta = 1 \n
@@ -11812,7 +11846,6 @@
         wpn_toz34_so = 1 \n
         wpn_bm16_full = 1 \n
         wpn_bizon = 1 \n
-        wpn_vz65 = 1 \n
         [spawn_loadout2] \n
         wpn_cz52 = 1 \n
         wpn_ots33 = 1 \n
@@ -11849,12 +11882,11 @@
         wpn_ak74u = 1 \n
         wpn_toz34 = 1 \n
         [spawn_loadout2] \n
-        wpn_cz52 = 1 \n
-        wpn_ots33 = 1 \n
-        wpn_pm = 1 \n
-        wpn_tt33_2 = 1 \n
-        wpn_cz75 = 1 \n
-        wpn_beretta = 1 \n
+        wpn_colt1911 = 1 \n
+        wpn_glock20 = 1 \n
+        wpn_tt33 = 1 \n
+        wpn_mp443 = 1 \n
+        wpn_pb = 1 \n
         [spawn] \n
 #include "gameplay\character_items.xml"
 #include "gameplay\character_food.xml"
@@ -11913,12 +11945,11 @@
     <visual>actors\stalker_neutral\stalker_neutral2b_old</visual>
     <supplies>
         [spawn_loadout] \n
-        wpn_ak74 = 1 \n
-        wpn_ak47 = 1 \n
+        wpn_ak74m = 1 \n
+        wpn_aks74n = 1 \n
+        wpn_aks74n_kobra = 1 \n
+        wpn_ak104 = 1 \n
         wpn_mn91 = 1 \n
-        wpn_m16 = 1 \n
-        wpn_ar15_acog = 1 \n
-        wpn_ar15 = 1 \n
         [spawn_loadout2] \n
         wpn_cz52 = 1 \n
         wpn_ots33 = 1 \n
@@ -11952,12 +11983,9 @@
         wpn_ak74u = 1 \n
         wpn_toz34 = 1 \n
         wpn_toz34_so_sk1 = 1 \n
-        wpn_m16 = 1 \n
-        wpn_ar15_acog = 1 \n
-        wpn_ar15 = 1 \n
+        wpn_ak101 = 1 \n
         [spawn_loadout2] \n
-        wpn_cz52 = 1 \n
-        wpn_ots33 = 1 \n
+        wpn_fort = 1 \n
         wpn_pm = 1 \n
         wpn_tt33_2 = 1 \n
         wpn_cz75 = 1 \n
@@ -11985,19 +12013,14 @@
     <visual>actors\stalker_neutral\stalker_neutral2d_old</visual>
     <supplies>
         [spawn_loadout] \n
-        wpn_toz34 = 1 \n
-        wpn_toz34_so_sk1 = 1 \n
-        wpn_m16 = 1 \n
-        wpn_ar15_acog = 1 \n
-        wpn_ar15 = 1 \n
+        wpn_svt40 = 1 \n
+        wpn_svt40_pu = 1 \n
         wpn_sks = 1 \n
         wpn_sks_pu = 1 \n
         [spawn_loadout2] \n
-        wpn_cz52 = 1 \n
         wpn_ots33 = 1 \n
         wpn_pm = 1 \n
         wpn_cz75 = 1 \n
-        wpn_beretta = 1 \n
         [spawn] \n
 #include "gameplay\character_items.xml"
 #include "gameplay\character_food.xml"
@@ -12021,14 +12044,14 @@
     <visual>actors\stalker_neutral\stalker_neutral2e_old</visual>
     <supplies>
         [spawn_loadout] \n
-
-        wpn_toz34_so = 1 \n
-        wpn_bm16_full = 1 \n
-        wpn_bizon = 1 \n
-        wpn_vz65 = 1 \n
+        wpn_sks = 1 \n
+        wpn_svt40 = 1 \n
+        wpn_svt40_pu = 1 \n
         wpn_bm16 = 1 \n
         wpn_ar15 = 1 \n
         [spawn_loadout2] \n
+        wpn_colt1911 = 1 \n
+        wpn_pb = 1 \n
         wpn_cz52 = 1 \n
         wpn_ots33 = 1 \n
         wpn_cz75 = 1 \n
@@ -12059,13 +12082,14 @@
         wpn_ak74u = 1 \n
         wpn_toz34 = 1 \n
         wpn_toz34_so_sk1 = 1 \n
-        wpn_m16 = 1 \n
-        wpn_ar15 = 1 \n
+        wpn_svt40 = 1 \n
+        wpn_m14 = 1 \n
         [spawn_loadout2] \n
-        wpn_aps = 1 \n
-        wpn_tt33_2 = 1 \n
-        wpn_cz75 = 1 \n
+        wpn_ots33 = 1 \n
+        wpn_colt1911_sk3 = 1 \n
         wpn_beretta = 1 \n
+        wpn_mp443 = 1 \n
+        wpn_aps = 1 \n
         [spawn] \n
 #include "gameplay\character_items.xml"
 #include "gameplay\character_food.xml"
@@ -12097,10 +12121,9 @@
         wpn_toz34 = 1 \n
         [spawn_loadout2] \n
         wpn_pmm = 1 \n
-        wpn_aps = 1 \n
-        wpn_tt33_2 = 1 \n
-        wpn_cz75 = 1 \n
-        wpn_beretta = 1 \n
+        wpn_glock17 = 1 \n
+        wpn_glock20 = 1 \n
+        wpn_pm = 1 \n
         [spawn] \n
 #include "gameplay\character_items.xml"
 #include "gameplay\character_food.xml"
@@ -12124,17 +12147,17 @@
     <visual>actors\stalker_neutral\stalker_neutral2a_merc</visual>
     <supplies>
         [spawn_loadout] \n
-        wpn_ak74m = 1 \n
-        wpn_toz34_so = 1 \n
-        wpn_bm16_full = 1 \n
-        wpn_bizon = 1 \n
-        wpn_vz65 = 1 \n
+        wpn_mp5 = 1 \n
+        wpn_aks74 = 1 \n
+        wpn_aks74n = 1 \n
+        wpn_ak74u = 1 \n
+        wpn_ak101 = 1 \n
         [spawn_loadout2] \n
+        wpn_fort = 1 \n
+        wpn_glock17 = 1 \n
+        wpn_aps = 1 \n
         wpn_cz52 = 1 \n
-        wpn_ots33 = 1 \n
-        wpn_pm = 1 \n
         wpn_cz75 = 1 \n
-        wpn_beretta = 1 \n
         [spawn] \n
 #include "gameplay\character_items.xml"
 #include "gameplay\character_food.xml"
@@ -12194,17 +12217,16 @@
     <supplies>
         [spawn_loadout] \n
         wpn_bizon = 1 \n
-        wpn_vz65 = 1 \n
         wpn_bm16 = 1 \n
+        wpn_svt40 = 1 \n
+        wpn_sks = 1 \n
         wpn_ak74u = 1 \n
-        wpn_toz34 = 1 \n
         wpn_toz34_so_sk1 = 1 \n
-        wpn_m16 = 1 \n
+        wpn_akm = 1 \n
         wpn_ar15 = 1 \n
         [spawn_loadout2] \n
-        wpn_cz52 = 1 \n
-        wpn_ots33 = 1 \n
-        wpn_tt33_2 = 1 \n
+        wpn_pmm = 1 \n
+        wpn_colt1911 = 1 \n
         wpn_cz75 = 1 \n
         wpn_beretta = 1 \n
         [spawn] \n
@@ -12230,19 +12252,19 @@
     <visual>actors\stalker_neutral\stalker_neutral2d_merc</visual>
     <supplies>
         [spawn_loadout] \n
-        wpn_vz65 = 1 \n
-        wpn_bm16 = 1 \n
+        wpn_ak102 = 1 \n
+        wpn_mn91 = 1 \n
+        wpn_sks_pu = 1 \n
+        wpn_sks = 1 \n
+        wpn_ak74m_kobra = 1 \n
+        wpn_ak74m = 1 \n
         wpn_ak74u = 1 \n
-        wpn_toz34 = 1 \n
-        wpn_toz34_so_sk1 = 1 \n
         [spawn_loadout2] \n
         wpn_cz52 = 1 \n
         wpn_ots33 = 1 \n
         wpn_cz75 = 1 \n
         wpn_beretta = 1 \n
         [spawn] \n
-        grenade_f1 = 2 \n
-        grenade_rgd5 = 2 \n
 #include "gameplay\character_items.xml"
 #include "gameplay\character_food.xml"
 #include "gameplay\character_drugs_2.xml"
@@ -12277,12 +12299,11 @@
         wpn_toz34_so = 1 \n
         wpn_bm16_full = 1 \n
         [spawn_loadout2] \n
-        wpn_cz52 = 1 \n
-        wpn_ots33 = 1 \n
-        wpn_pm = 1 \n
-        wpn_tt33_2 = 1 \n
-        wpn_cz75 = 1 \n
         wpn_beretta = 1 \n
+        wpn_fort = 1 \n
+        wpn_gsh18 = 1 \n
+        wpn_pm = 1 \n
+        wpn_pb = 1 \n
         [spawn] \n
 #include "gameplay\character_items.xml"
 #include "gameplay\character_food.xml"
@@ -12306,22 +12327,17 @@
     <visual>actors\stalker_neutral\stalker_neutral2f_merc</visual>
     <supplies>
         [spawn_loadout] \n
-        wpn_ak74 = 1 \n
-        wpn_ak47 = 1 \n
+        wpn_ak101 = 1 \n
         wpn_mn91 = 1 \n
-        wpn_toz34_so = 1 \n
-        wpn_bm16_full = 1 \n
-        wpn_bizon = 1 \n
-        wpn_vz65 = 1 \n
-        wpn_bm16 = 1 \n
         wpn_ak74u = 1 \n
+        wpn_mossberg = 1 \n
+        wpn_sks = 1 \n
         [spawn_loadout2] \n
-        wpn_cz52 = 1 \n
-        wpn_ots33 = 1 \n
-        wpn_pm = 1 \n
         wpn_tt33_2 = 1 \n
-        wpn_cz75 = 1 \n
-        wpn_beretta = 1 \n
+        wpn_pm = 1 \n
+        wpn_walther = 1 \n
+        wpn_fort = 1 \n
+        wpn_cz52 = 1 \n
         [spawn] \n
 #include "gameplay\character_items.xml"
 #include "gameplay\character_food.xml"
@@ -12345,18 +12361,17 @@
     <visual>actors\stalker_neutral\stalker_neutral_2_gp5</visual>
     <supplies>
         [spawn_loadout] \n
-        wpn_bm16_full = 1 \n
-        wpn_bizon = 1 \n
-        wpn_vz65 = 1 \n
-        wpn_bm16 = 1 \n
-        wpn_ak74u = 1 \n
-        wpn_toz34 = 1 \n
+        wpn_akm = 1 \n
+        wpn_akms = 1 \n
         wpn_toz34_so_sk1 = 1 \n
+        wpn_spas12 = 1 \n
+        wpn_ak47 = 1 \n
         [spawn_loadout2] \n
-        wpn_cz52 = 1 \n
-        wpn_tt33_2 = 1 \n
-        wpn_cz75 = 1 \n
-        wpn_beretta = 1 \n
+        wpn_pmm = 1 \n
+        wpn_mp440 = 1 \n
+        wpn_tt33 = 1 \n
+        wpn_colt1911_sk2 = 1 \n
+        wpn_mp443 = 1 \n
         [spawn] \n
 #include "gameplay\character_items.xml"
 #include "gameplay\character_food.xml"
@@ -12380,13 +12395,10 @@
     <visual>actors\stalker_neutral\stalker_neutral2a_gp5</visual>
     <supplies>
         [spawn_loadout] \n
-        wpn_toz34_so = 1 \n
-        wpn_bm16_full = 1 \n
-        wpn_vz65 = 1 \n
-        wpn_bm16 = 1 \n
-        wpn_ak74u = 1 \n
-        wpn_toz34 = 1 \n
-        wpn_toz34_so_sk1 = 1 \n
+        wpn_aks74n_kobra = 1 \n
+        wpn_aks74n = 1 \n
+        wpn_akm_1p29 = 1 \n
+        wpn_rpk74 = 1 \n
         [spawn_loadout2] \n
         wpn_cz52 = 1 \n
         wpn_ots33 = 1 \n
@@ -12491,13 +12503,16 @@
         wpn_mn91 = 1 \n
         wpn_mn91_pu = 1 \n
         wpn_ak74m = 1 \n
+        wpn_aks74n = 1 \n
+        wpn_aks74n_kobra = 1 \n
         wpn_toz34_so = 1 \n
-        wpn_bm16_full = 1 \n
         wpn_pp2000 = 1 \
         [spawn_loadout2] \n
-        wpn_cz52 = 1 \n
-        wpn_ots33 = 1 \n
-        wpn_pm = 1 \n
+        wpn_glock17 = 1 \n
+        wpn_pmm = 1 \n
+        wpn_beretta = 1 \n
+        wpn_aps = 1 \n
+        wpn_pb = 1 \n
         [spawn] \n
 #include "gameplay\character_items.xml"
 #include "gameplay\character_food.xml"
@@ -12524,15 +12539,14 @@
         wpn_toz34 = 1 \n
         wpn_toz34_so_sk1 = 1 \n
         wpn_m16 = 1 \n
-        wpn_ar15_acog = 1 \n
         wpn_ar15 = 1 \n
         wpn_pp2000 = 1 \
         [spawn_loadout2] \n
-        wpn_pb = 1 \n
-        wpn_pmm = 1 \n
-        wpn_aps = 1 \n
-        wpn_tt33_2 = 1 \n
-        wpn_cz75 = 1 \n
+        wpn_tt33 = 1 \n
+        wpn_glock17 = 1 \n
+        wpn_mp443 = 1 \n
+        wpn_colt1911_sk2 = 1 \n
+        wpn_colt1911 = 1 \n
         [spawn] \n
 #include "gameplay\character_items.xml"
 #include "gameplay\character_food.xml"
@@ -12556,18 +12570,17 @@
     <visual>actors\stalker_neutral\stalker_neutral2f_gp5</visual>
     <supplies>
         [spawn_loadout] \n
-        wpn_mn91_pu = 1 \n
-        wpn_mp5 = 1 \n
-        wpn_bizon = 1 \n
-        wpn_vz65 = 1 \n
         wpn_ar15 = 1 \n
-        wpn_pp2000 = 1 \
+        wpn_toz34_so = 1 \n
+        wpn_svt40 = 1 \n
+        wpn_bm16 = 1 \n
+        wpn_spas12 = 1 \n
         [spawn_loadout2] \n
-        wpn_pmm = 1 \n
-        wpn_aps = 1 \n
         wpn_tt33_2 = 1 \n
-        wpn_cz75 = 1 \n
-        wpn_beretta = 1 \n
+        wpn_mp443 = 1 \n
+        wpn_fort = 1 \n
+        wpn_tt33 = 1 \n
+        wpn_ots33 = 1 \n
         [spawn] \n
 #include "gameplay\character_items.xml"
 #include "gameplay\character_food.xml"
@@ -12591,16 +12604,20 @@
     <visual>actors\stalker_neutral\stalker_neutral0g</visual>
     <supplies>
         [spawn_loadout] \n
-        wpn_m16 = 1 \n
-        wpn_ar15_acog = 1 \n
-        wpn_ar15 = 1 \n
-        wpn_pp2000 = 1 \
+        wpn_ak105_kobra = 1 \n
+        wpn_ak105 = 1 \n
+        wpn_mossberg = 1 \n
+        wpn_wincheaster1300 = 1 \n
+        wpn_mn91_pu = 1 \n
+        wpn_mn91 = 1 \n
+        wpn_ak74m_1p29 = 1 \n
+        wpn_ak74m = 1 \n
         [spawn_loadout2] \n
-        wpn_cz52 = 1 \n
+        wpn_fort = 1 \n
+        wpn_beretta = 1 \n
+        wpn_tt33_2 = 1 \n
+        wpn_glock21 = 1 \n
         wpn_ots33 = 1 \n
-        wpn_pm = 1 \n
-        wpn_pb = 1 \n
-        wpn_pmm = 1 \n
         [spawn] \n
 #include "gameplay\character_items.xml"
 #include "gameplay\character_food.xml"
@@ -12658,12 +12675,11 @@
     <visual>actors\stalker_neutral\stalker_neutral2g_gp5</visual>
     <supplies>
         [spawn_loadout] \n
-        wpn_ak74 = 1 \n
-        wpn_ak47 = 1 \n
-        wpn_mn91 = 1 \n
-        wpn_mn91_pu = 1 \n
-        wpn_akm = 1 \n
+        wpn_mossberg = 1 \n
         wpn_ak74u = 1 \n
+        wpn_ak74u_ekp = 1 \n
+        wpn_ak74m = 1 \n
+        wpn_spas12 = 1 \n
         [spawn_loadout2] \n
         wpn_cz52 = 1 \n
         wpn_ots33 = 1 \n
@@ -12692,18 +12708,20 @@
     <visual>actors\stalker_neutral\stalker_neutral2g_old</visual>
     <supplies>
         [spawn_loadout] \n
-        wpn_ak74 = 1 \n
-        wpn_ak47 = 1 \n
+        wpn_aks74 = 1 \n
+        wpn_akm = 1 \n
+        wpn_sks = 1 \n
         wpn_mn91 = 1 \n
         wpn_mn91_pu = 1 \n
-        wpn_bizon = 1 \n
-        wpn_vz65 = 1 \n
+        wpn_ak101 = 1 \n
         wpn_ar15 = 1 \n
         wpn_pp2000 = 1 \
         [spawn_loadout2] \n
-        wpn_cz52 = 1 \n
-        wpn_ots33 = 1 \n
-        wpn_pm = 1 \n
+        wpn_mp440 = 1 \n
+        wpn_walther = 1 \n
+        wpn_gsh18 = 1 \n
+        wpn_mp443 = 1 \n
+        wpn_pb = 1 \n
         [spawn] \n
 #include "gameplay\character_items.xml"
 #include "gameplay\character_food.xml"
@@ -12730,9 +12748,8 @@
         wpn_ak74 = 1 \n
         wpn_ak47 = 1 \n
         wpn_bizon = 1 \n
-        wpn_vz65 = 1 \n
-        wpn_bm16 = 1 \n
         wpn_ak74u = 1 \n
+        wpn_svt40 = 1 \n
         [spawn_loadout2] \n
         wpn_cz52 = 1 \n
         wpn_ots33 = 1 \n
@@ -12763,13 +12780,11 @@
     <supplies>
         [spawn_loadout] \n
         wpn_bizon = 1 \n
-        wpn_vz65 = 1 \n
-        wpn_bm16 = 1 \n
+        wpn_svt40 = 1 \n
+        wpn_ak74m = 1 \n
         wpn_ak74u = 1 \n
-        wpn_toz34 = 1 \n
         wpn_toz34_so_sk1 = 1 \n
-        wpn_m16 = 1 \n
-        wpn_ar15_acog = 1 \n
+        wpn_akm = 1 \n
         [spawn_loadout2] \n
         wpn_cz52 = 1 \n
         wpn_ots33 = 1 \n
@@ -12798,12 +12813,12 @@
     <visual>actors\stalker_neutral\stalker_neutral2gmask2</visual>
     <supplies>
         [spawn_loadout] \n
-        wpn_ak74 = 1 \n
-        wpn_ak47 = 1 \n
-        wpn_mn91 = 1 \n
-        wpn_mn91_pu = 1 \n
-        wpn_akm = 1 \n
-        wpn_mp5 = 1 \n
+        wpn_remington870 = 1 \n
+        wpn_toz34_sk1 = 1 \n
+        wpn_ak101_kobra = 1 \n
+        wpn_ak101 = 1 \n
+        wpn_ak74u = 1 \n
+        wpn_toz34_so = 1 \n
         [spawn_loadout2] \n
         wpn_cz52 = 1 \n
         wpn_ots33 = 1 \n
@@ -12837,8 +12852,8 @@
         wpn_mn91_pu = 1 \n
         wpn_akm = 1 \n
         wpn_mp5 = 1 \n
-        wpn_vz65 = 1 \n
-        wpn_bm16 = 1 \n
+        wpn_ak74u_ekp = 1 \n
+        wpn_ak74u_kobra = 1 \n
         wpn_ak74u = 1 \n
         wpn_toz34 = 1 \n
         [spawn_loadout2] \n
@@ -12870,21 +12885,19 @@
     <visual>actors\stalker_neutral\stalker_neutral2a_mas2</visual>
     <supplies>
         [spawn_loadout] \n
-        wpn_ak74 = 1 \n
-        wpn_ak47 = 1 \n
+        wpn_aks74 = 1 \n
+        wpn_akm = 1 \n
         wpn_mn91 = 1 \n
-        wpn_vz65 = 1 \n
         wpn_bm16 = 1 \n
         wpn_ak74u = 1 \n
-        wpn_ar15 = 1 \n
         wpn_pp2000 = 1 \
         [spawn_loadout2] \n
         wpn_cz52 = 1 \n
         wpn_ots33 = 1 \n
-        wpn_pm = 1 \n
-        wpn_pb = 1 \n
-        wpn_pmm = 1 \n
-        wpn_beretta = 1 \n
+        wpn_colt1911_sk3 = 1 \n
+        wpn_glock35 = 1 \n
+        wpn_fort = 1 \n
+        wpn_colt1911_sk2 = 1 \n
         [spawn] \n
 #include "gameplay\character_items.xml"
 #include "gameplay\character_food.xml"
@@ -12908,15 +12921,14 @@
     <visual>actors\stalker_neutral\stalker_neutral2b_mas2</visual>
     <supplies>
         [spawn_loadout] \n
-        wpn_ak74 = 1 \n
-        wpn_ak47 = 1 \n
+        wpn_ak74m_ekp = 1 \n
+        wpn_ak74m_kobra = 1 \n
         wpn_mn91 = 1 \n
         wpn_mn91_pu = 1 \n
         wpn_ak74u = 1 \n
         wpn_ar15 = 1 \n
         wpn_pp2000 = 1 \
         [spawn_loadout2] \n
-        wpn_cz52 = 1 \n
         wpn_ots33 = 1 \n
         wpn_pm = 1 \n
         wpn_pb = 1 \n
@@ -12945,26 +12957,20 @@
     <visual>actors\stalker_neutral\stalker_neutral2c_mas2</visual>
     <supplies>
         [spawn_loadout] \n
-        wpn_ak74 = 1 \n
-        wpn_ak47 = 1 \n
-        wpn_mn91 = 1 \n
-        wpn_bizon = 1 \n
-        wpn_vz65 = 1 \n
-        wpn_bm16 = 1 \n
+        wpn_mp5 = 1 \n
+        wpn_sks = 1 \n
+        wpn_svt40 = 1 \n
+        wpn_ak74u_ekp = 1 \n
         wpn_ak74u = 1 \n
-        wpn_toz34 = 1 \n
-        wpn_toz34_so_sk1 = 1 \n
+        wpn_akms = 1 \n
+        wpn_ak74m = 1 \n
         [spawn_loadout2] \n
-        wpn_cz52 = 1 \n
         wpn_ots33 = 1 \n
         wpn_pm = 1 \n
         wpn_pb = 1 \n
         wpn_fort = 1 \n
         wpn_pmm = 1 \n
-        wpn_aps = 1 \n
-        wpn_tt33_2 = 1 \n
         wpn_cz75 = 1 \n
-        wpn_beretta = 1 \n
         [spawn] \n
 #include "gameplay\character_items.xml"
 #include "gameplay\character_food.xml"
@@ -12992,14 +12998,11 @@
         wpn_ak74m = 1 \n
         wpn_toz34_so = 1 \n
         wpn_bm16_full = 1 \n
-        wpn_bizon = 1 \n
-        wpn_vz65 = 1 \n
-        wpn_bm16 = 1 \n
-        wpn_ak74u = 1 \n
-        wpn_toz34 = 1 \n
-        wpn_toz34_so_sk1 = 1 \n
+        wpn_remington870_ac11090 = 1 \n
+        wpn_remington870 = 1 \n
+        wpn_ak47 = 1 \n
+        wpn_ak74m = 1 \n
         [spawn_loadout2] \n
-        wpn_cz52 = 1 \n
         wpn_ots33 = 1 \n
         wpn_pm = 1 \n
         wpn_pb = 1 \n
@@ -13031,20 +13034,16 @@
         [spawn_loadout] \n
         wpn_toz34_so = 1 \n
         wpn_bm16_full = 1 \n
-        wpn_bizon = 1 \n
-        wpn_vz65 = 1 \n
-        wpn_bm16 = 1 \n
+        wpn_mossberg = 1 \n
+        wpn_spas12 = 1 \n
         wpn_ak74u = 1 \n
-        wpn_toz34 = 1 \n
         wpn_toz34_so_sk1 = 1 \n
         [spawn_loadout2] \n
-        wpn_cz52 = 1 \n
-        wpn_ots33 = 1 \n
-        wpn_pm = 1 \n
-        wpn_aps = 1 \n
-        wpn_tt33_2 = 1 \n
-        wpn_cz75 = 1 \n
-        wpn_beretta = 1 \n
+        wpn_mp443 = 1 \n
+        wpn_tt33 = 1 \n
+        wpn_gsh18 = 1 \n
+        wpn_colt1911_sk2 = 1 \n
+        wpn_glock17 = 1 \n
         [spawn] \n
 #include "gameplay\character_items.xml"
 #include "gameplay\character_food.xml"
@@ -13068,21 +13067,17 @@
     <visual>actors\stalker_neutral\stalker_neutral2f_mas2</visual>
     <supplies>
         [spawn_loadout] \n
-        wpn_ak74 = 1 \n
-        wpn_ak47 = 1 \n
-        wpn_mn91 = 1 \n
-        wpn_mn91_pu = 1 \n
-        wpn_akm = 1 \n
-        wpn_mp5 = 1 \n
-        wpn_toz34 = 1 \n
-        wpn_toz34_so_sk1 = 1 \n
+        wpn_bm16 = 1 \n
+        wpn_remington870 = 1 \n
+        wpn_sks = 1 \n
+        wpn_wincheaster1300 = 1 \n
+        wpn_m16 = 1 \n
         [spawn_loadout2] \n
-        wpn_cz52 = 1 \n
         wpn_ots33 = 1 \n
-        wpn_pm = 1 \n
-        wpn_tt33_2 = 1 \n
-        wpn_cz75 = 1 \n
-        wpn_beretta = 1 \n
+        wpn_colt1911_sk3 = 1 \n
+        wpn_cz52 = 1 \n
+        wpn_gsh18 = 1 \n
+        wpn_glock17 = 1 \n
         [spawn] \n
 #include "gameplay\character_items.xml"
 #include "gameplay\character_food.xml"
@@ -13107,16 +13102,13 @@
     <supplies>
         [spawn_loadout] \n
         wpn_akm = 1 \n
-        wpn_bizon = 1 \n
-        wpn_vz65 = 1 \n
-        wpn_bm16 = 1 \n
+        wpn_mossberg = 1 \n
+        wpn_aks74 = 1 \n
         wpn_ak74u = 1 \n
-        wpn_toz34 = 1 \n
+        wpn_toz34_so = 1 \n
         wpn_toz34_so_sk1 = 1 \n
         [spawn_loadout2] \n
-        wpn_cz52 = 1 \n
-        wpn_ots33 = 1 \n
-        wpn_aps = 1 \n
+        wpn_colt1911_sk3 = 1 \n
         wpn_tt33_2 = 1 \n
         wpn_cz75 = 1 \n
         wpn_beretta = 1 \n
@@ -13143,20 +13135,19 @@
     <visual>actors\stalker_neutral\stalker_neutral2a_mas3</visual>
     <supplies>
         [spawn_loadout] \n
-        wpn_ak74 = 1 \n
-        wpn_ak47 = 1 \n
-        wpn_vz65 = 1 \n
-        wpn_bm16 = 1 \n
-        wpn_ak74u = 1 \n
-        wpn_toz34 = 1 \n
-        wpn_toz34_so_sk1 = 1 \n
+        wpn_mp5sd = 1 \n
+        wpn_ak103_kobra = 1 \n
+        wpn_ak103 = 1 \n
+        wpn_akms_ekp = 1 \n
+        wpn_akms = 1 \n
+        wpn_mp5 = 1 \n
+        wpn_akm = 1 \n
         [spawn_loadout2] \n
-        wpn_cz52 = 1 \n
-        wpn_ots33 = 1 \n
-        wpn_pm = 1 \n
-        wpn_pb = 1 \n
-        wpn_cz75 = 1 \n
-        wpn_beretta = 1 \n
+        wpn_mp443 = 1 \n
+        wpn_walther = 1 \n
+        wpn_aps = 1 \n
+        wpn_glock20 = 1 \n
+        wpn_glock17 = 1 \n
         [spawn] \n
 #include "gameplay\character_items.xml"
 #include "gameplay\character_food.xml"
@@ -13180,21 +13171,19 @@
     <visual>actors\stalker_neutral\stalker_neutral2b_mas3</visual>
     <supplies>
         [spawn_loadout] \n
-        wpn_ak74 = 1 \n
-        wpn_ak47 = 1 \n
-        wpn_mn91 = 1 \n
-        wpn_vz65 = 1 \n
-        wpn_bm16 = 1 \n
-        wpn_ak74u = 1 \n
-        wpn_toz34 = 1 \n
-        wpn_toz34_so_sk1 = 1 \n
+        wpn_akm_1p29 = 1 \n
+        wpn_akm = 1 \n
+        wpn_ak101_ekp = 1 \n
+        wpn_ak101 = 1 \n
+        wpn_aks74n_1p29 = 1 \n
+        wpn_aks74n = 1 \n
+        wpn_mp5sd = 1 \n
         [spawn_loadout2] \n
-        wpn_cz52 = 1 \n
         wpn_ots33 = 1 \n
-        wpn_pm = 1 \n
-        wpn_pb = 1 \n
-        wpn_pmm = 1 \n
-        wpn_aps = 1 \n
+        wpn_glock17 = 1 \n
+        wpn_tt33 = 1 \n
+        wpn_mp443 = 1 \n
+        wpn_colt1911_sk2 = 1 \n
         [spawn] \n
 #include "gameplay\character_items.xml"
 #include "gameplay\character_food.xml"
@@ -13218,18 +13207,17 @@
     <visual>actors\stalker_neutral\stalker_neutral2c_mas3</visual>
     <supplies>
         [spawn_loadout] \n
-        wpn_ak74 = 1 \n
-        wpn_ak47 = 1 \n
-        wpn_mn91 = 1 \n
-        wpn_mn91_pu = 1 \n
-        wpn_akm = 1 \n
+        wpn_ak102_1p29 = 1 \n
+        wpn_ak102 = 1 \n
+        wpn_svt40_pu = 1 \n
+        wpn_svt40 = 1 \n
+        wpn_mp5_c-more = 1 \n
+        wpn_mp5 = 1 \n
+        wpn_aks47 = 1 \n
         wpn_ak74u = 1 \n
-        wpn_toz34 = 1 \n
-        wpn_toz34_so_sk1 = 1 \n
         [spawn_loadout2] \n
-        wpn_cz52 = 1 \n
-        wpn_ots33 = 1 \n
-        wpn_pm = 1 \n
+        wpn_colt1911_sk3 = 1 \n
+        wpn_walther = 1 \n
         wpn_pb = 1 \n
         wpn_aps = 1 \n
         wpn_tt33_2 = 1 \n
@@ -13258,24 +13246,18 @@
     <visual>actors\stalker_neutral\stalker_neutral2d_mas3</visual>
     <supplies>
         [spawn_loadout] \n
-        wpn_ak74 = 1 \n
-        wpn_ak47 = 1 \n
-        wpn_mn91 = 1 \n
-        wpn_bm16_full = 1 \n
-        wpn_bizon = 1 \n
-        wpn_vz65 = 1 \n
-        wpn_toz34 = 1 \n
-        wpn_toz34_so_sk1 = 1 \n
+        wpn_toz34_so = 1 \n
+        wpn_svt40 = 1 \n
+        wpn_akms = 1 \n
+        wpn_ak101 = 1 \n
+        wpn_m4a1 = 1 \n
+        wpn_mp5 = 1 \n
         [spawn_loadout2] \n
-        wpn_cz52 = 1 \n
-        wpn_ots33 = 1 \n
-        wpn_pm = 1 \n
-        wpn_pb = 1 \n
+        wpn_fort = 1 \n
+        wpn_mp440 = 1 \n
         wpn_pmm = 1 \n
-        wpn_aps = 1 \n
-        wpn_tt33_2 = 1 \n
-        wpn_cz75 = 1 \n
-        wpn_beretta = 1 \n
+        wpn_cz52 = 1 \n
+        wpn_pb = 1 \n
         [spawn] \n
 #include "gameplay\character_items.xml"
 #include "gameplay\character_food.xml"
@@ -13299,26 +13281,19 @@
     <visual>actors\stalker_neutral\stalker_neutral2e_mas3</visual>
     <supplies>
         [spawn_loadout] \n
-        wpn_ak74 = 1 \n
-        wpn_ak47 = 1 \n
-        wpn_mn91 = 1 \n
-        wpn_mn91_pu = 1 \n
-        wpn_bizon = 1 \n
-        wpn_vz65 = 1 \n
-        wpn_bm16 = 1 \n
+        wpn_akms_1p29 = 1 \n
+        wpn_akms = 1 \n
         wpn_ak74u = 1 \n
+        wpn_ak104 = 1 \n
+        wpn_ak105 = 1 \n
         wpn_toz34 = 1 \n
         wpn_toz34_so_sk1 = 1 \n
         [spawn_loadout2] \n
-        wpn_cz52 = 1 \n
-        wpn_ots33 = 1 \n
-        wpn_pm = 1 \n
-        wpn_pb = 1 \n
-        wpn_pmm = 1 \n
-        wpn_aps = 1 \n
         wpn_tt33_2 = 1 \n
-        wpn_cz75 = 1 \n
-        wpn_beretta = 1 \n
+        wpn_mp443 = 1 \n
+        wpn_fort = 1 \n
+        wpn_glock17 = 1 \n
+        wpn_pmm = 1 \n
         [spawn] \n
 #include "gameplay\character_items.xml"
 #include "gameplay\character_food.xml"
@@ -13342,14 +13317,11 @@
     <visual>actors\stalker_neutral\stalker_neutral2f_mas3</visual>
     <supplies>
         [spawn_loadout] \n
-        wpn_toz34_so = 1 \n
-        wpn_bm16_full = 1 \n
-        wpn_bizon = 1 \n
-        wpn_vz65 = 1 \n
-        wpn_bm16 = 1 \n
-        wpn_ak74u = 1 \n
-        wpn_toz34 = 1 \n
-        wpn_toz34_so_sk1 = 1 \n
+        wpn_svt40 = 1 \n
+        wpn_pp2000 = 1 \n
+        wpn_aks74n_1p29 = 1 \n
+        wpn_aks74n = 1 \n
+        wpn_m16 = 1 \n
         [spawn_loadout2] \n
         wpn_cz52 = 1 \n
         wpn_ots33 = 1 \n
@@ -13380,20 +13352,13 @@
     <visual>actors\stalker_neutral\stalker_neutral2g_mas2</visual>
     <supplies>
         [spawn_loadout] \n
-        wpn_ak74 = 1 \n
-        wpn_ak47 = 1 \n
-        wpn_mn91 = 1 \n
-        wpn_mn91_pu = 1 \n
-        wpn_akm = 1 \n
-        wpn_mp5 = 1 \n
-        wpn_bizon = 1 \n
-        wpn_ak74u = 1 \n
-        wpn_toz34 = 1 \n
-        wpn_toz34_so_sk1 = 1 \n
+        wpn_ar15 = 1 \n
+        wpn_bm16_full = 1 \n
         wpn_sks = 1 \n
-        wpn_sks_pu = 1 \n
+        wpn_ak101_1p29 = 1 \n
+        wpn_ak101 = 1 \n
+        wpn_wincheaster1300 = 1 \n
         [spawn_loadout2] \n
-        wpn_cz52 = 1 \n
         wpn_ots33 = 1 \n
         wpn_pm = 1 \n
         wpn_pb = 1 \n
@@ -13423,23 +13388,19 @@
     <visual>actors\stalker_neutral\stalker_neutral2g_mas3</visual>
     <supplies>
         [spawn_loadout] \n
-        wpn_ak74 = 1 \n
-        wpn_ak47 = 1 \n
-        wpn_mn91 = 1 \n
-        wpn_bm16_full = 1 \n
-        wpn_bizon = 1 \n
-        wpn_vz65 = 1 \n
-        wpn_ak74u = 1 \n
+        wpn_mossberg = 1 \n
+        wpn_ak103_kobra = 1 \n
+        wpn_ak103 = 1 \n
         wpn_toz34 = 1 \n
-        wpn_toz34_so_sk1 = 1 \n
+        wpn_akm = 1 \n
+        wpn_mp5_ac11090 = 1 \n
+        wpn_mp5 = 1 \n
         [spawn_loadout2] \n
+        wpn_walther = 1 \n
         wpn_cz52 = 1 \n
-        wpn_ots33 = 1 \n
-        wpn_pm = 1 \n
+        wpn_colt1911_sk3 = 1 \n
+        wpn_gsh18 = 1 \n
         wpn_pb = 1 \n
-        wpn_tt33_2 = 1 \n
-        wpn_cz75 = 1 \n
-        wpn_beretta = 1 \n
         [spawn] \n
 #include "gameplay\character_items.xml"
 #include "gameplay\character_food.xml"
@@ -13464,16 +13425,17 @@
     <visual>actors\stalker_neutral\stalker_neutral_2_mask</visual>
     <supplies>
         [spawn_loadout] \n
-        wpn_mn91 = 1 \n
-        wpn_ak74 = 1 \n
-        wpn_ak47 = 1 \n
-        wpn_toz34 = 1 \n
+        wpn_ak74u = 1 \n
+        wpn_ak74u_kobra = 1 \n
+        wpn_ak74m = 1 \n
+        wpn_aks74n = 1 \n
         wpn_toz34_so_sk1 = 1 \n
         [spawn_loadout2] \n
+        wpn_colt1911_sk2 = 1 \n
         wpn_pm = 1 \n
-        wpn_pmm = 1 \n
-        wpn_tt33_2 = 1 \n
-        wpn_cz75 = 1 \n
+        wpn_colt1911_sk3 = 1 \n
+        wpn_sig220 = 1 \n
+        wpn_pb = 1 \n
         [spawn] \n
 #include "gameplay\character_items_2.xml"
 #include "gameplay\character_food.xml"
@@ -13497,22 +13459,19 @@
     <visual>actors\stalker_neutral\stalker_neutral2a_mask</visual>
     <supplies>
         [spawn_loadout] \n
-        wpn_ak74 = 1 \n
-        wpn_ak47 = 1 \n
+        wpn_ak74m = 1 \n
+        wpn_aks74n = 1 \n
+        wpn_ak105 = 1 \n
         wpn_akm = 1 \n
         wpn_toz34_so = 1 \n
-        wpn_bm16_full = 1 \n
-        wpn_bm16 = 1 \n
         wpn_ak74u = 1 \n
-        wpn_toz34 = 1 \n
         wpn_toz34_so_sk1 = 1 \n
         [spawn_loadout2] \n
-        wpn_cz52 = 1 \n
-        wpn_ots33 = 1 \n
-        wpn_pm = 1 \n
-        wpn_pmm = 1 \n
         wpn_tt33_2 = 1 \n
-        wpn_cz75 = 1 \n
+        wpn_pm = 1 \n
+        wpn_glock17 = 1 \n
+        wpn_glock35 = 1 \n
+        wpn_mp440 = 1 \n
         [spawn] \n
 #include "gameplay\character_items_2.xml"
 #include "gameplay\character_food.xml"
@@ -13536,8 +13495,9 @@
     <visual>actors\stalker_neutral\stalker_neutral2b_mask</visual>
     <supplies>
         [spawn_loadout] \n
-        wpn_mp5 = 1 \n
-        wpn_toz34_so = 1 \n
+        wpn_ak104_1p29 = 1 \n
+        wpn_ak104 = 1 \n
+        wpn_svt40 = 1 \n
         wpn_bm16_full = 1 \n
         wpn_bizon = 1 \n
         wpn_vz65 = 1 \n
@@ -13545,8 +13505,8 @@
         [spawn_loadout2] \n
         wpn_cz52 = 1 \n
         wpn_pmm = 1 \n
-        wpn_tt33_2 = 1 \n
-        wpn_cz75 = 1 \n
+        wpn_pm = 1 \n
+        wpn_mp440 = 1 \n
         [spawn] \n
 #include "gameplay\character_items_2.xml"
 #include "gameplay\character_food.xml"
@@ -13570,18 +13530,18 @@
     <visual>actors\stalker_neutral\stalker_neutral2c_mask</visual>
     <supplies>
         [spawn_loadout] \n
-        wpn_ak74 = 1 \n
-        wpn_ak47 = 1 \n
-        wpn_ak74u = 1 \n
+        wpn_aks74n = 1 \n
+        wpn_aks74 = 1 \n
+        wpn_ak74m_1p29 = 1 \n
+        wpn_ak101 = 1 \n
         wpn_toz34 = 1 \n
         wpn_toz34_so_sk1 = 1 \n
         [spawn_loadout2] \n
-        wpn_cz52 = 1 \n
-        wpn_ots33 = 1 \n
-        wpn_pm = 1 \n
-        wpn_pmm = 1 \n
-        wpn_tt33_2 = 1 \n
-        wpn_cz75 = 1 \n
+        wpn_glock17 = 1 \n
+        wpn_colt1911 = 1 \n
+        wpn_aps = 1 \n
+        wpn_gsh18 = 1 \n
+        wpn_fort = 1 \n
         [spawn] \n
 #include "gameplay\character_items_2.xml"
 #include "gameplay\character_food.xml"
@@ -13605,25 +13565,18 @@
     <visual>actors\stalker_neutral\stalker_neutral2d_mask</visual>
     <supplies>
         [spawn_loadout] \n
-        wpn_ak74 = 1 \n
-        wpn_ak47 = 1 \n
-        wpn_akm = 1 \n
-        wpn_mp5 = 1 \n
-        wpn_toz34_so = 1 \n
-        wpn_bm16_full = 1 \n
-        wpn_bizon = 1 \n
-        wpn_vz65 = 1 \n
-        wpn_bm16 = 1 \n
-        wpn_ak74u = 1 \n
-        wpn_toz34 = 1 \n
-        wpn_toz34_so_sk1 = 1 \n
+        wpn_akms_kobra = 1 \n
+        wpn_akms = 1 \n
+        wpn_rpk = 1 \n
+        wpn_pp2000 = 1 \n
+        wpn_toz34_sk1 = 1 \n
+        wpn_mn91 = 1 \n
         [spawn_loadout2] \n
-        wpn_cz52 = 1 \n
+        wpn_fort = 1 \n
+        wpn_glock17 = 1 \n
         wpn_ots33 = 1 \n
-        wpn_pm = 1 \n
-        wpn_pmm = 1 \n
-        wpn_tt33_2 = 1 \n
         wpn_cz75 = 1 \n
+        wpn_tt33 = 1 \n
         [spawn] \n
 #include "gameplay\character_items_2.xml"
 #include "gameplay\character_food.xml"
@@ -13647,12 +13600,13 @@
     <visual>actors\stalker_neutral\stalker_neutral_0</visual>
     <supplies>
         [spawn_loadout] \n
-        wpn_ak74 = 1 \n
-        wpn_ak47 = 1 \n
-        wpn_bm16 = 1 \n
+        wpn_aks74 = 1 \n
+        wpn_akms = 1 \n
+        wpn_ak101 = 1 \n
         wpn_ak74u = 1 \n
         wpn_toz34 = 1 \n
         wpn_toz34_so_sk1 = 1 \n
+        wpn_mp5 = 1 \n
         [spawn_loadout2] \n
         wpn_cz52 = 1 \n
         wpn_ots33 = 1 \n
@@ -13681,17 +13635,16 @@
     <visual>actors\stalker_neutral\stalker_neutral0a</visual>
     <supplies>
         [spawn_loadout] \n
-        wpn_ak74 = 1 \n
-        wpn_bizon = 1 \n
-        wpn_vz65 = 1 \n
-        wpn_bm16 = 1 \n
-        wpn_ak74u = 1 \n
+        wpn_akm_kobra = 1 \n
+        wpn_akm = 1 \n
+        wpn_ak74m = 1 \n
+        wpn_saiga = 1 \n
         wpn_toz34 = 1 \n
-        wpn_toz34_so_sk1 = 1 \n
+        wpn_ak101_ekp = 1 \n
+        wpn_ak101 = 1 \n
         [spawn_loadout2] \n
-        wpn_cz52 = 1 \n
-        wpn_ots33 = 1 \n
-        wpn_tt33_2 = 1 \n
+        wpn_glock17 = 1 \n
+        wpn_mp443 = 1 \n
         wpn_fort = 1 \n
         wpn_cz75 = 1 \n
         wpn_beretta = 1 \n
@@ -13718,22 +13671,16 @@
     <visual>actors\stalker_neutral\stalker_neutral0b</visual>
     <supplies>
         [spawn_loadout] \n
-        wpn_ak74 = 1 \n
-        wpn_ak47 = 1 \n
+        wpn_aks74n = 1 \n
+        wpn_aks74n_kobra = 1 \n
         wpn_bizon = 1 \n
-        wpn_vz65 = 1 \n
-        wpn_bm16 = 1 \n
         wpn_ak74u = 1 \n
-        wpn_toz34 = 1 \n
-        wpn_toz34_so_sk1 = 1 \n
         [spawn_loadout2] \n
-        wpn_cz52 = 1 \n
-        wpn_ots33 = 1 \n
-        wpn_pm = 1 \n
-        wpn_pmm = 1 \n
+        wpn_glock21 = 1 \n
         wpn_tt33_2 = 1 \n
-        wpn_cz75 = 1 \n
         wpn_beretta = 1 \n
+        wpn_gsh18 = 1 \n
+        wpn_pb = 1 \n
         [spawn] \n
 #include "gameplay\character_items_2.xml"
 #include "gameplay\character_food.xml"
@@ -13757,10 +13704,11 @@
     <visual>actors\stalker_neutral\stalker_neutral0c</visual>
     <supplies>
         [spawn_loadout] \n
-        wpn_ak74 = 1 \n
+        wpn_ak101 = 1 \n
+        wpn_ak105 = 1 \n
+        wpn_ak74u = 1 \n
+        wpn_mossberg = 1 \n
         wpn_bm16_full = 1 \n
-        wpn_bizon = 1 \n
-        wpn_toz34_so_sk1 = 1 \n
         [spawn_loadout2] \n
         wpn_pb = 1 \n
         wpn_pmm = 1 \n
@@ -13790,14 +13738,16 @@
     <visual>actors\stalker_neutral\stalker_neutral0d</visual>
     <supplies>
         [spawn_loadout] \n
-        wpn_ak74 = 1 \n
-        wpn_ak47 = 1 \n
-        wpn_bizon = 1 \n
-        wpn_vz65 = 1 \n
+        wpn_aks74_ekp = 1 \n
+        wpn_aks74 = 1 \n
         wpn_bm16 = 1 \n
+        wpn_aks74n_ekp = 1 \n
+        wpn_aks74n = 1 \n
+        wpn_remington870_ac11090 = 1 \n
+        wpn_remington870 = 1 \n
+        wpn_wincheaster1300 = 1 \n
         [spawn_loadout2] \n
-        wpn_cz52 = 1 \n
-        wpn_ots33 = 1 \n
+        wpn_colt1911_sk3 = 1 \n
         wpn_pm = 1 \n
         wpn_pb = 1 \n
         wpn_pmm = 1 \n
@@ -13826,7 +13776,9 @@
         [spawn_loadout] \n
         wpn_bm16_full = 1 \n
         wpn_bizon = 1 \n
-        wpn_vz65 = 1 \n
+        wpn_ak74u_ekp = 1 \n
+        wpn_bm16 = 1 \n
+        wpn_toz34_so = 1 \n
         [spawn_loadout2] \n
         wpn_pb = 1 \n
         wpn_pmm = 1 \n
@@ -13861,8 +13813,7 @@
         wpn_toz34 = 1 \n
         wpn_toz34_so_sk1 = 1 \n
         [spawn_loadout2] \n
-        wpn_cz52 = 1 \n
-        wpn_ots33 = 1 \n
+        wpn_gsh18 = 1 \n
         wpn_pm = 1 \n
         wpn_fort = 1 \n
         wpn_pb = 1 \n
@@ -13889,17 +13840,19 @@
     <visual>actors\stalker_neutral\stalker_neutral2b</visual>
     <supplies>
         [spawn_loadout] \n
-        wpn_ak74 = 1 \n
-        wpn_ak47 = 1 \n
+        wpn_akm_ekp = 1 \n
         wpn_akm = 1 \n
+        wpn_ak103 = 1 \n
+        wpn_mp5 = 1 \n
+        wpn_bm16 = 1 \n
+        wpn_toz34_sk1 = 1 \n
         [spawn_loadout2] \n
-        wpn_cz52 = 1 \n
-        wpn_pm = 1 \n
-        wpn_fort = 1 \n
-        wpn_pb = 1 \n
+        wpn_aps = 1 \n
+        wpn_tt33 = 1 \n
+        wpn_beretta = 1 \n
+        wpn_mp440 = 1 \n
+        wpn_tt33_2 = 1 \n
         [spawn] \n
-        grenade_f1 = 2 \n
-        grenade_rgd5 = 2 \n
 #include "gameplay\character_items_2.xml"
 #include "gameplay\character_food.xml"
 #include "gameplay\character_drugs_2.xml"
@@ -13923,8 +13876,9 @@
     <supplies>
         [spawn_loadout] \n
         wpn_ak74u = 1 \n
-        wpn_toz34 = 1 \n
-        wpn_toz34_so_sk1 = 1 \n
+        wpn_aks74n = 1 \n
+        wpn_aks74 = 1 \n
+        wpn_akms = 1 \n
         [spawn_loadout2] \n
         wpn_tt33_2 = 1 \n
         wpn_cz75 = 1 \n
@@ -13953,15 +13907,14 @@
     <supplies>
         [spawn_loadout] \n
         wpn_vz65 = 1 \n
-        wpn_bm16 = 1 \n
         wpn_ak74u = 1 \n
-        wpn_toz34_so_sk1 = 1 \n
+        wpn_ak74u_ekp = 1 \n
+        wpn_ak74m_1p29 = 1 \n
+        wpn_aks74 = 1 \n
         [spawn_loadout2] \n
-        wpn_cz52 = 1 \n
-        wpn_ots33 = 1 \n
-        wpn_fort = 1 \n
-        wpn_pm = 1 \n
-        wpn_pb = 1 \n
+        wpn_colt1911_sk2 = 1 \n
+        wpn_glock17 = 1 \n
+        wpn_beretta = 1 \n
         [spawn] \n
 #include "gameplay\character_items_2.xml"
 #include "gameplay\character_food.xml"
@@ -13985,10 +13938,10 @@
     <visual>actors\stalker_neutral\stalker_neutral_2mask1</visual>
     <supplies>
         [spawn_loadout] \n
-        wpn_ak47 = 1 \n
+        wpn_ak104 = 1 \n
+        wpn_ak103 = 1 \n
         wpn_ak74u = 1 \n
         wpn_toz34 = 1 \n
-        wpn_toz34_so_sk1 = 1 \n
         [spawn_loadout2] \n
         wpn_pb = 1 \n
         wpn_pmm = 1 \n
@@ -14018,13 +13971,16 @@
     <visual>actors\stalker_neutral\stalker_neutral2amask1</visual>
     <supplies>
         [spawn_loadout] \n
-        wpn_bizon = 1 \n
-        wpn_vz65 = 1 \n
-        wpn_bm16 = 1 \n
-        wpn_ak74u = 1 \n
+        wpn_mp5_c-more = 1 \n
+        wpn_mp5 = 1 \n
+        wpn_wincheaster1300 = 1 \n
+        wpn_ak74m = 1 \n
+        wpn_ak74m_1p29 = 1 \n
+        wpn_vepr12 = 1 \n
         [spawn_loadout2] \n
         wpn_tt33_2 = 1 \n
         wpn_cz75 = 1 \n
+        wpn_glock17 = 1 \n
         wpn_beretta = 1 \n
         [spawn] \n
 #include "gameplay\character_items_2.xml"
@@ -14049,10 +14005,12 @@
     <visual>actors\stalker_neutral\stalker_neutral2bmask1</visual>
     <supplies>
         [spawn_loadout] \n
-        wpn_bizon = 1 \n
-        wpn_vz65 = 1 \n
-        wpn_bm16 = 1 \n
-        wpn_ak74u = 1 \n
+        wpn_aks74_kobra = 1 \n
+        wpn_aks74 = 1 \n
+        wpn_mp5sd = 1 \n
+        wpn_wincheaster1300 = 1 \n
+        wpn_remington870 = 1 \n
+        wpn_toz34_sk1 = 1 \n
         [spawn_loadout2] \n
         wpn_cz52 = 1 \n
         wpn_ots33 = 1 \n
@@ -14084,9 +14042,12 @@
         wpn_akm = 1 \n
         wpn_saiga = 1 \n
         wpn_mp5 = 1 \n
-        wpn_vz65 = 1 \n
+        wpn_svt40 = 1 \n
+        wpn_svt40_pu = 1 \n
+        wpn_sks = 1 \n
+        wpn_sks_pu = 1 \n
         [spawn_loadout2] \n
-        wpn_cz52 = 1 \n
+        wpn_mp443 = 1 \n
         wpn_ots33 = 1 \n
         wpn_pmm = 1 \n
         wpn_aps = 1 \n
@@ -14113,14 +14074,16 @@
     <visual>actors\stalker_neutral\stalker_neutral2dmask1</visual>
     <supplies>
         [spawn_loadout] \n
-        wpn_bizon = 1 \n
-        wpn_vz65 = 1 \n
+        wpn_mp5 = 1 \n
+        wpn_aks74n = 1 \n
+        wpn_aks74n_kobra = 1 \n
+        wpn_aks74n_ekp = 1 \n
         wpn_ak74u = 1 \n
         wpn_toz34_so_sk1 = 1 \n
         [spawn_loadout2] \n
-        wpn_aps = 1 \n
-        wpn_tt33_2 = 1 \n
-        wpn_cz75 = 1 \n
+        wpn_colt1911_sk3 = 1 \n
+        wpn_sig220 = 1 \n
+        wpn_mp443 = 1 \n
         wpn_beretta = 1 \n
         [spawn] \n
 #include "gameplay\character_items_2.xml"
@@ -14145,14 +14108,20 @@
     <visual>actors\stalker_neutral\stalker_neutral_2mask2</visual>
     <supplies>
         [spawn_loadout] \n
+        wpn_akm_ekp = 1 \n
+        wpn_akm = 1 \n
+        wpn_ak105_ekp = 1 \n
+        wpn_ak105 = 1 \n
+        wpn_ak104_kobra = 1 \n
+        wpn_ak104 = 1 \n
+        wpn_bizon_ekp = 1 \n
         wpn_bizon = 1 \n
-        wpn_vz65 = 1 \n
-        wpn_bm16 = 1 \n
-        wpn_ak74u = 1 \n
+        wpn_wincheaster1300 = 1 \n
         [spawn_loadout2] \n
         wpn_pb = 1 \n
         wpn_pmm = 1 \n
-        wpn_aps = 1 \n
+        wpn_walther = 1 \n
+        wpn_colt1911 = 1 \n
         [spawn] \n
 #include "gameplay\character_items_2.xml"
 #include "gameplay\character_food.xml"
@@ -14177,15 +14146,17 @@
     <supplies>
         [spawn_loadout] \n
         wpn_mn91 = 1 \n
+        wpn_mn91_pu = 1 \n
         wpn_akm = 1 \n
-        wpn_vz65 = 1 \n
+        wpn_sks = 1 \n
         wpn_bm16 = 1 \n
+        wpn_wincheaster1300 = 1 \n
         [spawn_loadout2] \n
+        wpn_glock17 = 1 \n
+        wpn_glock35 = 1 \n
         wpn_cz52 = 1 \n
-        wpn_ots33 = 1 \n
-        wpn_tt33_2 = 1 \n
-        wpn_cz75 = 1 \n
-        wpn_beretta = 1 \n
+        wpn_pm = 1 \n
+        wpn_fort = 1 \n
         [spawn] \n
 #include "gameplay\character_items_2.xml"
 #include "gameplay\character_food.xml"
@@ -14209,18 +14180,18 @@
     <visual>actors\stalker_neutral\stalker_neutral2bmask2</visual>
     <supplies>
         [spawn_loadout] \n
-        wpn_ak74 = 1 \n
-        wpn_ak47 = 1 \n
-        wpn_mn91 = 1 \n
-        wpn_akm = 1 \n
-        wpn_saiga = 1 \n
+        wpn_svt40 = 1 \n
+        wpn_m16 = 1 \n
+        wpn_ak104_1p29 = 1 \n
+        wpn_ak104 = 1 \n
+        wpn_ak74u = 1 \n
         wpn_mp5 = 1 \n
         [spawn_loadout2] \n
-        wpn_cz52 = 1 \n
-        wpn_ots33 = 1 \n
-        wpn_pm = 1 \n
+        wpn_glock21 = 1 \n
+        wpn_glock20 = 1 \n
         wpn_pb = 1 \n
-        wpn_pmm = 1 \n
+        wpn_gsh18 = 1 \n
+        wpn_sig220 = 1 \n
         [spawn] \n
 #include "gameplay\character_items_2.xml"
 #include "gameplay\character_food.xml"
@@ -14244,11 +14215,12 @@
     <visual>actors\stalker_neutral\stalker_neutral2cmask2</visual>
     <supplies>
         [spawn_loadout] \n
-        wpn_ak74 = 1 \n
-        wpn_ak47 = 1 \n
-        wpn_mn91 = 1 \n
-        wpn_akm = 1 \n
-        wpn_saiga = 1 \n
+        wpn_ak102_1p29 = 1 \n
+        wpn_ak102 = 1 \n
+        wpn_ak74m = 1 \n
+        wpn_bm16_full = 1 \n
+        wpn_ak74u_ekp = 1 \n
+        wpn_ak74u = 1 \n
         wpn_mp5 = 1 \n
         [spawn_loadout2] \n
         wpn_cz52 = 1 \n
@@ -14279,18 +14251,17 @@
     <visual>actors\stalker_neutral\stalker_neutral2dmask2</visual>
     <supplies>
         [spawn_loadout] \n
-        wpn_bizon = 1 \n
-        wpn_vz65 = 1 \n
-        wpn_bm16 = 1 \n
-        wpn_ak74u = 1 \n
-        wpn_toz34 = 1 \n
-        wpn_toz34_so_sk1 = 1 \n
+        wpn_aks74_1p29 = 1 \n
+        wpn_aks74 = 1 \n
+        wpn_aks74n = 1 \n
+        wpn_ar15 = 1 \n
+        wpn_aks47 = 1 \n
         [spawn_loadout2] \n
-        wpn_cz52 = 1 \n
-        wpn_ots33 = 1 \n
-        wpn_pm = 1 \n
         wpn_pb = 1 \n
-        wpn_pmm = 1 \n
+        wpn_pm = 1 \n
+        wpn_beretta = 1 \n
+        wpn_mp443 = 1 \n
+        wpn_glock17 = 1 \n
         [spawn] \n
 #include "gameplay\character_items_2.xml"
 #include "gameplay\character_food.xml"
@@ -14347,16 +14318,18 @@
     <visual>actors\stalker_neutral\stalker_neutral0e</visual>
     <supplies>
         [spawn_loadout] \n
-        wpn_mp5 = 1 \n
-        wpn_toz34_so = 1 \n
-        wpn_bm16_full = 1 \n
-        wpn_bizon = 1 \n
-        wpn_toz34_so_sk1 = 1 \n
+        wpn_ak74m_ekp = 1 \n
+        wpn_ak74m = 1 \n
+        wpn_ak74u_ekp = 1 \n
+        wpn_ak74u = 1 \n
+        wpn_mn91 = 1 \n
+        wpn_ak102 = 1 \n
         [spawn_loadout2] \n
-        wpn_aps = 1 \n
-        wpn_tt33_2 = 1 \n
-        wpn_cz75 = 1 \n
-        wpn_beretta = 1 \n
+        wpn_colt1911_sk3 = 1 \n
+        wpn_glock35 = 1 \n
+        wpn_pm = 1 \n
+        wpn_fort = 1 \n
+        wpn_colt1911 = 1 \n
         [spawn] \n
 #include "gameplay\character_items_2.xml"
 #include "gameplay\character_food.xml"
@@ -14380,11 +14353,11 @@
     <visual>actors\stalker_neutral\stalker_neutral2f_mask</visual>
     <supplies>
         [spawn_loadout] \n
-        wpn_mn91 = 1 \n
-        wpn_akm = 1 \n
-        wpn_saiga = 1 \n
+        wpn_ak103_1p29 = 1 \n
+        wpn_ak103 = 1 \n
+        wpn_ak102 = 1 \n
         wpn_mp5 = 1 \n
-        wpn_toz34_so_sk1 = 1 \n
+        wpn_sks = 1 \n
         [spawn_loadout2] \n
         wpn_cz52 = 1 \n
         wpn_ots33 = 1 \n
@@ -14414,8 +14387,9 @@
     <visual>actors\stalker_neutral\stalker_neutral0f</visual>
     <supplies>
         [spawn_loadout] \n
-        wpn_ak74 = 1 \n
-        wpn_ak47 = 1 \n
+        wpn_toz34_so = 1 \n
+        wpn_aks74 = 1 \n
+        wpn_aks74n_ekp = 1 \n
         wpn_mn91_pu = 1 \n
         [spawn_loadout2] \n
         wpn_cz52 = 1 \n
@@ -14444,23 +14418,21 @@
     <visual>actors\stalker_neutral\stalker_neutral2e</visual>
     <supplies>
         [spawn_loadout] \n
-        wpn_mn91_pu = 1 \n
+        wpn_ak105_ekp = 1 \n
+        wpn_ak105 = 1 \n
+        wpn_bm16_full = 1 \n
+        wpn_akm_kobra = 1 \n
         wpn_akm = 1 \n
-        wpn_mp5 = 1 \n
-        wpn_bm16 = 1 \n
-        wpn_ak74u = 1 \n
-        wpn_toz34 = 1 \n
-        wpn_toz34_so_sk1 = 1 \n
+        wpn_spas12 = 1 \n
+        wpn_ak101_ekp = 1 \n
+        wpn_ak101 = 1 \n
         [spawn_loadout2] \n
         wpn_cz52 = 1 \n
         wpn_ots33 = 1 \n
         wpn_pm = 1 \n
         wpn_pb = 1 \n
         wpn_pmm = 1 \n
-        wpn_aps = 1 \n
-        wpn_tt33_2 = 1 \n
-        wpn_cz75 = 1 \n
-        wpn_beretta = 1 \n
+        wpn_tt33 = 1 \n
         [spawn] \n
 #include "gameplay\character_items_2.xml"
 #include "gameplay\character_food.xml"
@@ -14523,11 +14495,11 @@
         wpn_akm = 1 \n
         wpn_mp5 = 1 \n
         [spawn_loadout2] \n
+        wpn_glock17 = 1 \n
         wpn_cz52 = 1 \n
-        wpn_ots33 = 1 \n
-        wpn_pm = 1 \n
-        wpn_pb = 1 \n
-        wpn_pmm = 1 \n
+        wpn_beretta = 1 \n
+        wpn_walther = 1 \n
+        wpn_fort = 1 \n
         [spawn] \n
 #include "gameplay\character_items_2.xml"
 #include "gameplay\character_food.xml"
@@ -14558,11 +14530,11 @@
         wpn_toz34 = 1 \n
         wpn_toz34_so_sk1 = 1 \n
         [spawn_loadout2] \n
-        wpn_aps = 1 \n
-        wpn_tt33_2 = 1 \n
-        wpn_fort = 1 \n
-        wpn_cz75 = 1 \n
-        wpn_beretta = 1 \n
+        wpn_colt1911 = 1 \n
+        wpn_pm = 1 \n
+        wpn_mp443 = 1 \n
+        wpn_cz52 = 1 \n
+        wpn_tt33 = 1 \n
         [spawn] \n
 #include "gameplay\character_items_2.xml"
 #include "gameplay\character_food.xml"
@@ -14586,11 +14558,11 @@
     <visual>actors\stalker_neutral\stalker_neutral2fmask1</visual>
     <supplies>
         [spawn_loadout] \n
-        wpn_mn91 = 1 \n
-        wpn_mn91_pu = 1 \n
-        wpn_vz65 = 1 \n
-        wpn_bm16 = 1 \n
-        wpn_ak74u = 1 \n
+        wpn_sks = 1 \n
+        wpn_ak105 = 1 \n
+        wpn_ak74m_1p29 = 1 \n
+        wpn_ak74m = 1 \n
+        wpn_ar15 = 1 \n
         [spawn_loadout2] \n
         wpn_pmm = 1 \n
         wpn_aps = 1 \n
@@ -14624,14 +14596,15 @@
         wpn_ak74m = 1 \n
         wpn_toz34_so = 1 \n
         wpn_bm16_full = 1 \n
-        wpn_bizon = 1 \n
+        wpn_bizon_ekp = 1 \n
+        wpn_bizon_kobra = 1 \n
         wpn_vz65 = 1 \n
         [spawn_loadout2] \n
-        wpn_cz52 = 1 \n
-        wpn_ots33 = 1 \n
-        wpn_pm = 1 \n
-        wpn_pb = 1 \n
-        wpn_beretta = 1 \n
+        wpn_glock17 = 1 \n
+        wpn_gsh18 = 1 \n
+        wpn_fort = 1 \n
+        wpn_aps = 1 \n
+        wpn_colt1911 = 1 \n
         [spawn] \n
 #include "gameplay\character_items_2.xml"
 #include "gameplay\character_food.xml"
@@ -14655,19 +14628,17 @@
     <visual>actors\stalker_neutral\stalker_neutral_2_old</visual>
     <supplies>
         [spawn_loadout] \n
-        wpn_akm = 1 \n
-        wpn_mp5 = 1 \n
-        wpn_aks74 = 1 \n
-        wpn_akms = 1 \n
-        wpn_ak74u = 1 \n
-        wpn_toz34 = 1 \n
+        wpn_aks47 = 1 \n
+        wpn_ar15 = 1 \n
+        wpn_svt40 = 1 \n
+        wpn_spas12 = 1 \n
+        wpn_mn91 = 1 \n
         [spawn_loadout2] \n
-        wpn_cz52 = 1 \n
-        wpn_ots33 = 1 \n
-        wpn_pm = 1 \n
-        wpn_tt33_2 = 1 \n
-        wpn_cz75 = 1 \n
         wpn_beretta = 1 \n
+        wpn_pmm = 1 \n
+        wpn_mp440 = 1 \n
+        wpn_glock17 = 1 \n
+        wpn_ots33 = 1 \n
         [spawn] \n
 #include "gameplay\character_items_2.xml"
 #include "gameplay\character_food.xml"
@@ -14691,15 +14662,14 @@
     <visual>actors\stalker_neutral\stalker_neutral2a_old</visual>
     <supplies>
         [spawn_loadout] \n
-        wpn_ak74 = 1 \n
-        wpn_ak47 = 1 \n
+        wpn_ak74u = 1 \n
+        wpn_ak74u_ekp = 1 \n
+        wpn_akms = 1 \n
         wpn_mn91 = 1 \n
         wpn_mn91_pu = 1 \n
         wpn_akm = 1 \n
         wpn_mp5 = 1 \n
         [spawn_loadout2] \n
-        wpn_cz52 = 1 \n
-        wpn_ots33 = 1 \n
         wpn_pm = 1 \n
         wpn_pb = 1 \n
         wpn_pmm = 1 \n
@@ -14726,18 +14696,15 @@
     <visual>actors\stalker_neutral\stalker_neutral2b_old</visual>
     <supplies>
         [spawn_loadout] \n
-        wpn_ak74 = 1 \n
-        wpn_ak47 = 1 \n
-        wpn_mn91 = 1 \n
-        wpn_m16 = 1 \n
-        wpn_ar15_acog = 1 \n
-        wpn_ar15 = 1 \n
+        wpn_aks74u = 1 \n
+        wpn_aks47 = 1 \n
+        wpn_akms = 1 \n
+        wpn_ak101 = 1 \n
         [spawn_loadout2] \n
-        wpn_cz52 = 1 \n
-        wpn_ots33 = 1 \n
-        wpn_tt33_2 = 1 \n
-        wpn_cz75 = 1 \n
-        wpn_beretta = 1 \n
+        wpn_walther = 1 \n
+        wpn_colt1911_sk3 = 1 \n
+        wpn_fort = 1 \n
+        wpn_pm = 1 \n
         [spawn] \n
 #include "gameplay\character_items_2.xml"
 #include "gameplay\character_food.xml"
@@ -14761,23 +14728,20 @@
     <visual>actors\stalker_neutral\stalker_neutral2c_old</visual>
     <supplies>
         [spawn_loadout] \n
-        wpn_bm16 = 1 \n
         wpn_ak74u = 1 \n
-        wpn_toz34 = 1 \n
+        wpn_remmington870 = 1 \n
         wpn_toz34_so_sk1 = 1 \n
-        wpn_m16 = 1 \n
-        wpn_ar15_acog = 1 \n
-        wpn_ar15 = 1 \n
+        wpn_aks74n = 1 \n
+        wpn_spas12 = 1 \n
+        wpn_toz34_so = 1 \n
+        wpn_ak104 = 1 \n
         [spawn_loadout2] \n
-        wpn_cz52 = 1 \n
-        wpn_ots33 = 1 \n
-        wpn_pm = 1 \n
+        wpn_pb = 1 \n
         wpn_tt33_2 = 1 \n
         wpn_cz75 = 1 \n
-        wpn_beretta = 1 \n
+        wpn_gsh18 = 1 \n
+        wpn_sig220 = 1 \n
         [spawn] \n
-        grenade_f1 = 2 \n
-        grenade_rgd5 = 2 \n
 #include "gameplay\character_items_2.xml"
 #include "gameplay\character_food.xml"
 #include "gameplay\character_drugs_2.xml"
@@ -14800,13 +14764,13 @@
     <visual>actors\stalker_neutral\stalker_neutral2d_old</visual>
     <supplies>
         [spawn_loadout] \n
-        wpn_toz34 = 1 \n
-        wpn_toz34_so_sk1 = 1 \n
-        wpn_m16 = 1 \n
-        wpn_ar15_acog = 1 \n
-        wpn_ar15 = 1 \n
+        wpn_aks47 = 1 \n
+        wpn_bm16 = 1 \n
+        wpn_wincheaster1300 = 1 \n
+        wpn_mp5 = 1 \n
+        wpn_aks74 = 1 \n
+        wpn_ak74u_1p29 = 1 \n
         [spawn_loadout2] \n
-        wpn_cz52 = 1 \n
         wpn_ots33 = 1 \n
         wpn_pm = 1 \n
         wpn_cz75 = 1 \n
@@ -14835,13 +14799,13 @@
     <supplies>
         [spawn_loadout] \n
         wpn_toz34_so = 1 \n
-        wpn_bm16_full = 1 \n
-        wpn_bizon = 1 \n
-        wpn_vz65 = 1 \n
-        wpn_bm16 = 1 \n
-        wpn_ar15 = 1 \n
+        wpn_mossberg = 1 \n
+        wpn_aks74n_kobra = 1 \n
+        wpn_aks74n = 1 \n
+        wpn_m16 = 1 \n
+        wpn_ak47 = 1 \n
         [spawn_loadout2] \n
-        wpn_cz52 = 1 \n
+        wpn_colt1911_sk3 = 1 \n
         wpn_ots33 = 1 \n
         wpn_cz75 = 1 \n
         wpn_beretta = 1 \n
@@ -14868,16 +14832,19 @@
     <visual>actors\stalker_neutral\stalker_neutral2f_old</visual>
     <supplies>
         [spawn_loadout] \n
-        wpn_ak74u = 1 \n
-        wpn_toz34 = 1 \n
-        wpn_toz34_so_sk1 = 1 \n
-        wpn_m16 = 1 \n
-        wpn_ar15 = 1 \n
+        wpn_ak104_ekp = 1 \n
+        wpn_ak104 = 1 \n
+        wpn_ak101 = 1 \n
+        wpn_ak47 = 1 \n
+        wpn_lr300 = 1 \n
+        wpn_ak103_1p29 = 1 \n
+        wpn_ak103 = 1 \n
         [spawn_loadout2] \n
-        wpn_aps = 1 \n
+        wpn_colt1911_sk3 = 1 \n
+        wpn_pmm = 1 \n
         wpn_tt33_2 = 1 \n
         wpn_cz75 = 1 \n
-        wpn_beretta = 1 \n
+        wpn_mp443 = 1 \n
         [spawn] \n
 #include "gameplay\character_items_2.xml"
 #include "gameplay\character_food.xml"
@@ -14901,12 +14868,12 @@
     <visual>actors\stalker_neutral\stalker_neutral_2_merc</visual>
     <supplies>
         [spawn_loadout] \n
-        wpn_bm16_full = 1 \n
-        wpn_bizon = 1 \n
-        wpn_vz65 = 1 \n
-        wpn_bm16 = 1 \n
-        wpn_ak74u = 1 \n
-        wpn_toz34 = 1 \n
+        wpn_mp5 = 1 \n
+        wpn_aks74n_ekp = 1 \n
+        wpn_aks74n = 1 \n
+        wpn_mossberg = 1 \n
+        wpn_ak74m_pso = 1 \n
+        wpn_ak74m = 1 \n
         [spawn_loadout2] \n
         wpn_pmm = 1 \n
         wpn_aps = 1 \n
@@ -14936,17 +14903,20 @@
     <visual>actors\stalker_neutral\stalker_neutral2a_merc</visual>
     <supplies>
         [spawn_loadout] \n
-        wpn_ak74m = 1 \n
-        wpn_toz34_so = 1 \n
-        wpn_bm16_full = 1 \n
-        wpn_bizon = 1 \n
-        wpn_vz65 = 1 \n
+        wpn_ak104_1p29 = 1 \n
+        wpn_ak104 = 1 \n
+        wpn_ak74_1p29 = 1 \n
+        wpn_ak74 = 1 \n
+        wpn_ak47 = 1 \n
+        wpn_aks74n = 1 \n
+        wpn_remington870_c-more = 1 \n
+        wpn_remington870 = 1 \n
         [spawn_loadout2] \n
+        wpn_glock35 = 1 \n
+        wpn_colt1911 = 1 \n
+        wpn_tt33_2 = 1 \n
+        wpn_gsh18 = 1 \n
         wpn_cz52 = 1 \n
-        wpn_ots33 = 1 \n
-        wpn_pm = 1 \n
-        wpn_cz75 = 1 \n
-        wpn_beretta = 1 \n
         [spawn] \n
 #include "gameplay\character_items_2.xml"
 #include "gameplay\character_food.xml"
