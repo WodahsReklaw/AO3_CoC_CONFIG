@@ -513,11 +513,10 @@
         wpn_ak105 = 1 \n
         wpn_groza = 1 \n
         [spawn_loadout2] \n
-        wpn_fiveseven = 1 \n
         wpn_cz75 = 1 \n
-        wpn_usp10 = 1 \n
-        wpn_walther = 1 \n
-        wpn_aps = 1 \n
+        wpn_pb = 1 \n
+        wpn_pmm = 1 \n
+        wpn_fort = 1 \n
         [spawn] \n
         device_torch \n
 #include "gameplay\character_items.xml"
@@ -585,7 +584,7 @@
         wpn_toz34_so_sk1 = 1 \n
         [spawn_loadout2] \n
         wpn_cz52 = 1 \n
-        wpn_ots33 = 1 \n
+        wpn_fort = 1 \n
         wpn_pm = 1 \n
         wpn_pmm = 1 \n
         wpn_tt33_2 = 1 \n
@@ -653,7 +652,7 @@
         wpn_toz34_so_sk1 = 1 \n
         [spawn_loadout2] \n
         wpn_cz52 = 1 \n
-        wpn_ots33 = 1 \n
+        wpn_fort = 1 \n
         wpn_pm = 1 \n
         wpn_pmm = 1 \n
         wpn_tt33_2 = 1 \n
@@ -690,7 +689,7 @@
         wpn_toz34_so_sk1 = 1 \n
         [spawn_loadout2] \n
         wpn_cz52 = 1 \n
-        wpn_ots33 = 1 \n
+        wpn_fort = 1 \n
         wpn_cz75 = 1 \n
         wpn_beretta = 1 \n
         [spawn] \n
@@ -724,7 +723,7 @@
         wpn_toz34_so_sk1 = 1 \n
         [spawn_loadout2] \n
         wpn_cz52 = 1 \n
-        wpn_ots33 = 1 \n
+        wpn_fort = 1 \n
         wpn_cz75 = 1 \n
         wpn_beretta = 1 \n
         [spawn] \n
@@ -759,8 +758,7 @@
         wpn_toz34_so_sk1 = 1 \n
         [spawn_loadout2] \n
         wpn_cz52 = 1 \n
-        wpn_ots33 = 1 \n
-        wpn_tt33_2 = 1 \n
+        wpn_pm = 1 \n
         wpn_cz75 = 1 \n
         wpn_beretta = 1 \n
         [spawn] \n
@@ -796,7 +794,7 @@
         wpn_toz34_so_sk1 = 1 \n
         [spawn_loadout2] \n
         wpn_cz52 = 1 \n
-        wpn_ots33 = 1 \n
+        wpn_gsh18 = 1 \n
         wpn_pm = 1 \n
         wpn_pmm = 1 \n
         wpn_tt33_2 = 1 \n
@@ -865,8 +863,8 @@
         wpn_vz65 = 1 \n
         wpn_bm16 = 1 \n
         [spawn_loadout2] \n
-        wpn_cz52 = 1 \n
-        wpn_ots33 = 1 \n
+        wpn_cz75 = 1 \n
+        wpn_gsh18 = 1 \n
         wpn_pm = 1 \n
         wpn_pb = 1 \n
         wpn_pmm = 1 \n
@@ -934,7 +932,7 @@
         wpn_toz34_so_sk1 = 1 \n
         [spawn_loadout2] \n
         wpn_cz52 = 1 \n
-        wpn_ots33 = 1 \n
+        wpn_gsh18 = 1 \n
         wpn_pm = 1 \n
         wpn_pb = 1 \n
         [spawn] \n
@@ -1026,7 +1024,7 @@
         wpn_toz34_so_sk1 = 1 \n
         [spawn_loadout2] \n
         wpn_cz52 = 1 \n
-        wpn_ots33 = 1 \n
+        wpn_fort = 1 \n
         wpn_pm = 1 \n
         wpn_pb = 1 \n
         [spawn] \n
@@ -1154,7 +1152,7 @@
         [spawn_loadout2] \n
         wpn_cz52 = 1 \n
         wpn_fort = 1 \n
-        wpn_ots33 = 1 \n
+        wpn_cz75 = 1 \n
         wpn_pm = 1 \n
         wpn_pb = 1 \n
         [spawn] \n
@@ -1186,9 +1184,9 @@
         wpn_vz65 = 1 \n
         [spawn_loadout2] \n
         wpn_cz52 = 1 \n
-        wpn_ots33 = 1 \n
+        wpn_cz75 = 1 \n
         wpn_pmm = 1 \n
-        wpn_aps = 1 \n
+        wpn_pm = 1 \n
         [spawn] \n
         device_torch \n
 #include "gameplay\character_items.xml"
@@ -1216,8 +1214,8 @@
         wpn_ak74u = 1 \n
         wpn_toz34_so_sk1 = 1 \n
         [spawn_loadout2] \n
-        wpn_aps = 1 \n
-        wpn_tt33_2 = 1 \n
+        wpn_fort = 1 \n
+        wpn_pb = 1 \n
         wpn_cz75 = 1 \n
         wpn_beretta = 1 \n
         [spawn] \n
@@ -1247,8 +1245,8 @@
         wpn_ak74u = 1 \n
         wpn_toz34_so_sk1 = 1 \n
         [spawn_loadout2] \n
-        wpn_aps = 1 \n
-        wpn_tt33_2 = 1 \n
+        wpn_fort = 1 \n
+        wpn_pm = 1 \n
         wpn_cz75 = 1 \n
         wpn_beretta = 1 \n
         [spawn] \n
@@ -1315,9 +1313,9 @@
         wpn_vz65 = 1 \n
         wpn_bm16 = 1 \n
         [spawn_loadout2] \n
-        wpn_cz52 = 1 \n
-        wpn_ots33 = 1 \n
-        wpn_tt33_2 = 1 \n
+        wpn_pm = 1 \n
+        wpn_gsh18 = 1 \n
+        wpn_fort = 1 \n
         wpn_cz75 = 1 \n
         wpn_beretta = 1 \n
         [spawn] \n
@@ -1350,8 +1348,8 @@
         wpn_saiga = 1 \n
         wpn_mp5 = 1 \n
         [spawn_loadout2] \n
-        wpn_cz52 = 1 \n
-        wpn_ots33 = 1 \n
+        wpn_cz75 = 1 \n
+        wpn_gsh18 = 1 \n
         wpn_pm = 1 \n
         wpn_pb = 1 \n
         wpn_pmm = 1 \n
@@ -1386,8 +1384,8 @@
         wpn_toz34 = 1 \n
         wpn_toz34_so_sk1 = 1 \n
         [spawn_loadout2] \n
-        wpn_cz52 = 1 \n
-        wpn_ots33 = 1 \n
+        wpn_cz75 = 1 \n
+        wpn_gsh18 = 1 \n
         wpn_pm = 1 \n
         wpn_pb = 1 \n
         wpn_pmm = 1 \n
@@ -1420,8 +1418,8 @@
         wpn_vz65 = 1 \n
         [spawn_loadout2] \n
         wpn_pmm = 1 \n
-        wpn_aps = 1 \n
-        wpn_tt33_2 = 1 \n
+        wpn_pm = 1 \n
+        wpn_pb = 1 \n
         wpn_cz75 = 1 \n
         wpn_beretta = 1 \n
         [spawn] \n
@@ -1453,8 +1451,8 @@
         wpn_bizon = 1 \n
         wpn_toz34_so_sk1 = 1 \n
         [spawn_loadout2] \n
-        wpn_aps = 1 \n
-        wpn_tt33_2 = 1 \n
+        wpn_pb = 1 \n
+        wpn_pmm = 1 \n
         wpn_cz75 = 1 \n
         wpn_beretta = 1 \n
         [spawn] \n
@@ -1488,8 +1486,9 @@
         wpn_toz34_so_sk1 = 1 \n
         [spawn_loadout2] \n
         wpn_cz52 = 1 \n
-        wpn_ots33 = 1 \n
-        wpn_tt33_2 = 1 \n
+        wpn_pm = 1 \n
+        wpn_pmm = 1 \n
+        wpn_pb = 1 \n
         wpn_cz75 = 1 \n
         wpn_beretta = 1 \n
         [spawn] \n
@@ -1553,15 +1552,11 @@
         wpn_ak74u_ekp = 1 \n
         wpn_toz34_so_sk1 = 1 \n
         [spawn_loadout2] \n
-        wpn_cz52 = 1 \n
-        wpn_ots33 = 1 \n
         wpn_pm = 1 \n
         wpn_pb = 1 \n
         wpn_pmm = 1 \n
-        wpn_aps = 1 \n
         wpn_tt33_2 = 1 \n
         wpn_cz75 = 1 \n
-        wpn_beretta = 1 \n
         [spawn] \n
 #include "gameplay\character_items.xml"
 #include "gameplay\character_food.xml"
@@ -1591,11 +1586,9 @@
         wpn_ak74m = 1 \n
         wpn_ak74u = 1 \n
         [spawn_loadout2] \n
-        wpn_cz52 = 1 \n
-        wpn_aps = 1 \n
-        wpn_tt33_2 = 1 \n
-        wpn_cz75 = 1 \n
-        wpn_beretta = 1 \n
+        wpn_gsh18 = 1 \n
+        wpn_pb = 1 \n
+        wpn_pm = 1 \n
         [spawn] \n
 #include "gameplay\character_items.xml"
 #include "gameplay\character_food.xml"
@@ -1627,7 +1620,6 @@
         wpn_mp5 = 1 \n
         [spawn_loadout2] \n
         wpn_cz52 = 1 \n
-        wpn_ots33 = 1 \n
         wpn_pm = 1 \n
         wpn_pb = 1 \n
         wpn_pmm = 1 \n
@@ -1664,11 +1656,10 @@
         wpn_toz34_so_sk1 = 1 \n
         [spawn_loadout2] \n
         wpn_cz52 = 1 \n
-        wpn_ots33 = 1 \n
         wpn_pm = 1 \n
         wpn_tt33_2 = 1 \n
         wpn_cz75 = 1 \n
-        wpn_beretta = 1 \n
+        wpn_pmm = 1 \n
         [spawn] \n
         device_torch \n
         grenade_rgd5 = 1 \n
@@ -1701,10 +1692,9 @@
         wpn_rpk74 = 1 \n
         [spawn_loadout2] \n
         wpn_fort = 1 \n
-        wpn_tt33_2 = 1 \n
         wpn_colt1911_sk3 = 1 \n
         wpn_pm = 1 \n
-        wpn_aps = 1 \n
+        wpn_pb = 1 \n
         [spawn] \n
         device_torch \n
 #include "gameplay\character_items.xml"
@@ -1809,8 +1799,8 @@
         wpn_toz34_so_sk1 = 1 \n
         wpn_vepr12 = 1 \n
         [spawn_loadout2] \n
-        wpn_aps = 1 \n
-        wpn_tt33_2 = 1 \n
+        wpn_pm = 1 \n
+        wpn_pmm = 1 \n
         wpn_walther = 1 \n
         wpn_colt1911_sk2 = 1 \n
         wpn_glock17 = 1 \n
@@ -1848,7 +1838,7 @@
         [spawn_loadout2] \n
         wpn_pm = 1 \n
         wpn_glock35 = 1 \n
-        wpn_aps = 1 \n
+        wpn_pb = 1 \n
         wpn_mp440 = 1 \n
         wpn_pmm = 1 \n
         [spawn] \n
